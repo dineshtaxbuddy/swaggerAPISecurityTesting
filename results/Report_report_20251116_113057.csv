@@ -1,0 +1,782 @@
+METHOD,PATH,URL,STATUS_CODE,DURATION_SEC,ERROR,RESPONSE
+GET,/{userId}/child-details,https://dev-api.taxbuddy.com/report/{}/child-details,500,2.81,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""For input string: \""{}\"""",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/{loggedInSmeUserId}/user-list-new,https://dev-api.taxbuddy.com/report/1/user-list-new,200,2.87,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : ""7c95bdbf-e346-4bae-b596-fcc1c43b267f"",
+      ""createdDate"" : ""2025-11-15T18:18:24.659Z"",
+      ""lastModifiedBy"" : ""7c95bdbf-e346-4bae-b596-fcc1c43b267f"",
+      ""lastModifiedDate"" : ""2025... (truncated)"
+GET,/validate-promo-code,https://dev-api.taxbuddy.com/report/validate-promo-code,500,2.76,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Regex string must not be null"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/v1/invoice/reminder/mail,https://dev-api.taxbuddy.com/report/v1/invoice/reminder/mail,404,2.76,,"{
+  ""success"" : false,
+  ""error"" : ""NOT_FOUND"",
+  ""message"" : ""Not_found: invoice not found"",
+  ""data"" : null,
+  ""httpErrorCode"" : 404
+}"
+GET,/v1/invoice/refund/requests,https://dev-api.taxbuddy.com/report/v1/invoice/refund/requests,200,2.9,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : ""3000"",
+      ""createdDate"" : ""2025-11-02T21:08:41.221Z"",
+      ""lastModifiedBy"" : ""3000"",
+      ""lastModifiedDate"" : ""2025-11-02T21:08:41.221Z"",
+      ""id"" : ""6907c85937d8567cefc4ec11"",
+... (truncated)"
+GET,/v1/invoice/download,https://dev-api.taxbuddy.com/report/v1/invoice/download,200,2.76,,
+GET,/v1/invoice/back-office,https://dev-api.taxbuddy.com/report/v1/invoice/back-office,500,2.74,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""text"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/users-itr-payment-done,https://dev-api.taxbuddy.com/report/users-itr-payment-done,500,2.77,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Cannot invoke \""java.lang.Integer.intValue()\"" because \""page\"" is null"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/swagger/config,https://dev-api.taxbuddy.com/report/swagger/config,200,2.76,,"{
+  ""configUrl"" : ""https://dev-api.taxbuddy.com/report/swagger/config"",
+  ""validatorUrl"" : """",
+  ""oauth2RedirectUrl"" : ""https://dev-api.taxbuddy.com/report/swagger-ui/oauth2-redirect.html"",
+  ""url"" : ""https://dev-api.taxbuddy.com/report/v3/api-docs""
+}"
+GET,/summary-sent-report,https://dev-api.taxbuddy.com/report/summary-sent-report,200,2.87,,"""UserId"",""Name"",""Email"",""Phone"",""Current status"",""Summary Sent Date"",""Itr Filed"",""Itr Filed Date""
+"
+GET,/subscription/cancel/requests,https://dev-api.taxbuddy.com/report/subscription/cancel/requests,200,2.88,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : ""anonymousUser"",
+      ""createdDate"" : ""2025-10-31T14:37:13.578Z"",
+      ""lastModifiedBy"" : ""3000"",
+      ""lastModifiedDate"" : ""2025-11-02T21:02:27.732Z"",
+      ""id"" : ""6904c99937d8567cef... (truncated)"
+GET,/subscription-dashboard-new/{loggedInSmeUserId},https://dev-api.taxbuddy.com/report/subscription-dashboard-new/1,200,5.98,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : ""anonymousUser"",
+      ""createdDate"" : ""2025-11-15T09:46:05.845Z"",
+      ""lastModifiedBy"" : ""anonymousUser"",
+      ""lastModifiedDate"" : ""2025-11-15T09:47:19.591Z"",
+      ""id"" : ""69184bdd9... (truncated)"
+GET,/sme-details-new/{userId},https://dev-api.taxbuddy.com/report/sme-details-new/1,200,2.99,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : ""2"",
+      ""createdDate"" : ""2023-03-28T08:54:28.297Z"",
+      ""lastModifiedBy"" : ""system"",
+      ""lastModifiedDate"" : ""2024-11-19T05:53:03.292Z"",
+      ""id"" : ""63d758238e648939a0f96644"",
+ ... (truncated)"
+GET,/sme-booked-slots,https://dev-api.taxbuddy.com/report/sme-booked-slots,200,3.05,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""bookedSlots"" : [ ]
+  },
+  ""httpErrorCode"" : 200
+}"
+GET,/send-summary-to-prefill-present-users,https://dev-api.taxbuddy.com/report/send-summary-to-prefill-present-users,500,3.27,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_value' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/search/userprofile/query,https://dev-api.taxbuddy.com/report/search/userprofile/query,200,2.78,,"{
+  ""pageSize"" : 0,
+  ""offset"" : 0,
+  ""totalRecords"" : 0,
+  ""sort"" : null,
+  ""records"" : null,
+  ""pageNumber"" : 0,
+  ""paged"" : true,
+  ""unpaged"" : false
+}"
+GET,/script-itr-filed-users,https://dev-api.taxbuddy.com/report/script-itr-filed-users,200,3.54,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : [ {
+    ""createdBy"" : null,
+    ""createdDate"" : ""2025-11-16T05:55:45.734865778Z"",
+    ""lastModifiedBy"" : null,
+    ""lastModifiedDate"" : ""2025-11-16T05:55:45.734866221Z"",
+    ""id"" : ""64a5498c9c20697f4b27fdcf"",
+    ""userId"" : 11981... (truncated)"
+GET,/promocodes,https://dev-api.taxbuddy.com/report/promocodes,200,2.82,,"{
+  ""content"" : [ {
+    ""createdBy"" : null,
+    ""createdDate"" : ""2021-04-08T18:20:07.422Z"",
+    ""lastModifiedBy"" : ""5fd22403-04b7-4404-ba7c-ac673e0d183f"",
+    ""lastModifiedDate"" : ""2021-06-03T13:02:39.405Z"",
+    ""id"" : ""603e0d50fe8ed880593e9a8f"",
+    ""code"" : ""BIKAYI40"",
+    ""title"" : ""BIKAYI Flat 4... (truncated)"
+GET,/payout/report,https://dev-api.taxbuddy.com/report/payout/report,500,2.95,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""fromIndex(1) > toIndex(0)"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/payout/partner-payment-report,https://dev-api.taxbuddy.com/report/payout/partner-payment-report,200,2.87,,"""Sr No"",""Name"",""Mobile"",""Email"",""GST No"",""Tax invoice Amount"",""GST Amount"",""Commission Earned"",""Commission paid"",""Total TDS on commission"",""TDS amount deducted"",""TDS more to Deduct"",""Pan""
+"
+GET,/payout/csv-data,https://dev-api.taxbuddy.com/report/payout/csv-data,404,2.97,,"{
+  ""success"" : false,
+  ""error"" : ""NOT_FOUND"",
+  ""message"" : ""Not_found: No Data found"",
+  ""data"" : null,
+  ""httpErrorCode"" : 404
+}"
+GET,/partner-rating,https://dev-api.taxbuddy.com/report/partner-rating,404,2.97,,"{
+  ""success"" : false,
+  ""error"" : ""NOT_FOUND"",
+  ""message"" : ""Not_found"",
+  ""data"" : null,
+  ""httpErrorCode"" : 404
+}"
+GET,/partner-details,https://dev-api.taxbuddy.com/report/partner-details,200,3.37,,"[ {
+  ""createdBy"" : ""anonymousUser"",
+  ""createdDate"" : ""2021-02-10T09:17:00.523Z"",
+  ""lastModifiedBy"" : ""system"",
+  ""lastModifiedDate"" : ""2021-02-22T10:40:23.007Z"",
+  ""id"" : ""6023a48cfc372f00016003a4"",
+  ""name"" : null,
+  ""mobileNumber"" : ""19767374273"",
+  ""emailAddress"" : ""dinesh1@gmail.com"",
+  ""chan... (truncated)"
+GET,/itr-report-income-source-mismatch,https://dev-api.taxbuddy.com/report/itr-report-income-source-mismatch,200,2.99,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : [ ],
+  ""httpErrorCode"" : 200
+}"
+GET,/itr-list,https://dev-api.taxbuddy.com/report/itr-list,500,3.17,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""class java.lang.Integer cannot be cast to class java.lang.Long (java.lang.Integer and java.lang.Long are in module java.base of loader 'bootstrap')"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/itr-filed-everification-pending-csv,https://dev-api.taxbuddy.com/report/itr-filed-everification-pending-csv,200,2.87,,"""Sr.No"",""User Id"",""Phone number"",""Email id"",""ITR filed through"",""E-Verification Pending"",""Return Type"",""Acknowledgement Number""
+""1"",""19231"",""0809076576"",""aditya.bhintade@taxbuddy.com"",""MANUALLY"",""Yes"",""Original"",""0000000000100725""
+""2"",""15139"",""4532636256"",""aditya.bhintade@taxbuddy.com"",""MANUALLY"",""Y... (truncated)"
+GET,/invoice/stop-reminder,https://dev-api.taxbuddy.com/report/invoice/stop-reminder,200,2.76,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : [ ],
+  ""httpErrorCode"" : 200
+}"
+GET,/invoice/report,https://dev-api.taxbuddy.com/report/invoice/report,200,9.01,,"[ {
+  ""createdBy"" : ""anonymousUser"",
+  ""createdDate"" : ""2025-11-15T09:46:07.481Z"",
+  ""lastModifiedBy"" : ""anonymousUser"",
+  ""lastModifiedDate"" : ""2025-11-15T09:47:19.453Z"",
+  ""_id"" : ""69184bdf90bb5107022f744e"",
+  ""subscriptionId"" : 8618,
+  ""txbdyInvoiceId"" : 7047,
+  ""userId"" : 21585,
+  ""invoiceNo"" : ... (truncated)"
+GET,/invoice/reminder,https://dev-api.taxbuddy.com/report/invoice/reminder,404,2.92,,"{
+  ""success"" : false,
+  ""error"" : ""NOT_FOUND"",
+  ""message"" : ""Not_found: invoice not found"",
+  ""data"" : null,
+  ""httpErrorCode"" : 404
+}"
+GET,/invoice/download,https://dev-api.taxbuddy.com/report/invoice/download,500,2.76,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Cannot invoke \""java.lang.Long.longValue()\"" because \""subscriptionId\"" is null"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/invoice/csv-report,https://dev-api.taxbuddy.com/report/invoice/csv-report,200,2.76,,
+GET,/dashboard/waiting-for-confirmation,https://dev-api.taxbuddy.com/report/dashboard/waiting-for-confirmation,200,2.87,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : null,
+  ""httpErrorCode"" : 200
+}"
+GET,/dashboard/user-data,https://dev-api.taxbuddy.com/report/dashboard/user-data,404,2.87,,"{
+  ""success"" : false,
+  ""error"" : ""NOT_FOUND"",
+  ""message"" : ""Not_found"",
+  ""data"" : null,
+  ""httpErrorCode"" : 404
+}"
+GET,/dashboard/status-wise-report,https://dev-api.taxbuddy.com/report/dashboard/status-wise-report,200,2.86,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : null,
+  ""httpErrorCode"" : 200
+}"
+GET,/dashboard/sme-report,https://dev-api.taxbuddy.com/report/dashboard/sme-report,200,2.77,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""totalSMEs"" : 124,
+    ""internalSMEs"" : 126,
+    ""partner"" : 0,
+    ""leaders"" : 2,
+    ""owners"" : 12,
+    ""filersPartners"" : 125
+  },
+  ""httpErrorCode"" : 200
+}"
+GET,/dashboard/schedule-call-details/{loggedInSmeUserId},https://dev-api.taxbuddy.com/report/dashboard/schedule-call-details/1,200,3.04,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : ""anonymousUser"",
+      ""createdDate"" : ""2023-10-31T10:08:48.086Z"",
+      ""lastModifiedBy"" : ""anonymousUser"",
+      ""lastModifiedDate"" : ""2023-11-04T10:33:47.234Z"",
+      ""id"" : ""6540d2306... (truncated)"
+GET,/dashboard/partner-commission,https://dev-api.taxbuddy.com/report/dashboard/partner-commission,500,3.0,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_value' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/dashboard/partner-commission-cumulative,https://dev-api.taxbuddy.com/report/dashboard/partner-commission-cumulative,500,2.76,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_value' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/dashboard/itr-users-overview,https://dev-api.taxbuddy.com/report/dashboard/itr-users-overview,500,2.97,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_valueT18:30:00.000Z' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/dashboard/itr-filed-everification-pending,https://dev-api.taxbuddy.com/report/dashboard/itr-filed-everification-pending,500,2.87,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_valueT18:30:00.000Z' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/dashboard/invoice-report,https://dev-api.taxbuddy.com/report/dashboard/invoice-report,500,2.77,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_valueT18:30:00.000Z' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/dashboard/filers-partnerAssignment,https://dev-api.taxbuddy.com/report/dashboard/filers-partnerAssignment,200,5.22,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""activePartners"" : 5,
+    ""inactivePartners"" : 123,
+    ""assignmentOn"" : 122,
+    ""assignmentOff"" : 6
+  },
+  ""httpErrorCode"" : 200
+}"
+GET,/bo/v1/invoice,https://dev-api.taxbuddy.com/report/bo/v1/invoice,500,2.77,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""text"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/users-discount-details,https://dev-api.taxbuddy.com/report/bo/users-discount-details,200,4.81,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : null,
+  ""httpErrorCode"" : 200
+}"
+GET,/bo/users-count,https://dev-api.taxbuddy.com/report/bo/users-count,200,3.18,,
+GET,/bo/user-list-new,https://dev-api.taxbuddy.com/report/bo/user-list-new,200,2.77,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : ""d15231c4-60db-46b7-acf2-5552d80eef6a"",
+      ""createdDate"" : ""2025-11-15T07:30:06.783Z"",
+      ""lastModifiedBy"" : ""d15231c4-60db-46b7-acf2-5552d80eef6a"",
+      ""lastModifiedDate"" : ""2025... (truncated)"
+GET,/bo/unpaid-itrU-details,https://dev-api.taxbuddy.com/report/bo/unpaid-itrU-details,200,3.31,,
+GET,/bo/tax-report,https://dev-api.taxbuddy.com/report/bo/tax-report,500,2.83,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Cannot invoke \""org.bson.Document.getInteger(Object)\"" because \""latestDocument\"" is null"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/subscription/coupon-code,https://dev-api.taxbuddy.com/report/bo/subscription/coupon-code,200,2.86,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : [ ],
+  ""httpErrorCode"" : 200
+}"
+GET,/bo/subscription/coupon-code-exists,https://dev-api.taxbuddy.com/report/bo/subscription/coupon-code-exists,500,2.76,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Cannot invoke \""java.lang.Integer.intValue()\"" because \""userId\"" is null"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/subscription/cancel/requests,https://dev-api.taxbuddy.com/report/bo/subscription/cancel/requests,200,2.79,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : ""anonymousUser"",
+      ""createdDate"" : ""2025-10-31T14:37:13.578Z"",
+      ""lastModifiedBy"" : ""3000"",
+      ""lastModifiedDate"" : ""2025-11-02T21:02:27.732Z"",
+      ""id"" : ""6904c99937d8567cef... (truncated)"
+GET,/bo/subscription-dashboard-new,https://dev-api.taxbuddy.com/report/bo/subscription-dashboard-new,500,2.75,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Cannot invoke \""java.lang.Integer.intValue()\"" because \""page\"" is null"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/subscription-adjustment,https://dev-api.taxbuddy.com/report/bo/subscription-adjustment,500,2.76,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Cannot invoke \""java.lang.Integer.intValue()\"" because \""page\"" is null"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/status-report,https://dev-api.taxbuddy.com/report/bo/status-report,200,3.03,,
+GET,/bo/sme/all-list,https://dev-api.taxbuddy.com/report/bo/sme/all-list,200,2.69,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : null,
+      ""createdDate"" : ""2023-01-28T16:32:15.057Z"",
+      ""lastModifiedBy"" : ""2a63c053-8d43-424b-929e-069eb0178e8f"",
+      ""lastModifiedDate"" : ""2025-10-07T10:31:56.052Z"",
+      ""id"" ... (truncated)"
+GET,/bo/sme-details,https://dev-api.taxbuddy.com/report/bo/sme-details,200,2.68,,"{
+  ""success"" : false,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : null,
+  ""httpErrorCode"" : 200
+}"
+GET,/bo/sme-details-new/{userId},https://dev-api.taxbuddy.com/report/bo/sme-details-new/1,500,2.76,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Cannot invoke \""com.txbdy.domain.SmeAgentDetailsV2.getPartnerType()\"" because \""smeDetail\"" is null"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/script/filing-details-with-compId,https://dev-api.taxbuddy.com/report/bo/script/filing-details-with-compId,500,2.87,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""text"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/script-add-status,https://dev-api.taxbuddy.com/report/bo/script-add-status,200,2.87,,
+GET,/bo/schedule-call-details,https://dev-api.taxbuddy.com/report/bo/schedule-call-details,200,2.95,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : ""anonymousUser"",
+      ""createdDate"" : ""2025-11-15T09:48:08.853Z"",
+      ""lastModifiedBy"" : ""anonymousUser"",
+      ""lastModifiedDate"" : ""2025-11-15T09:48:08.853Z"",
+      ""id"" : ""69184c58b... (truncated)"
+GET,/bo/report-prefill-uploaded-summary-not-sent,https://dev-api.taxbuddy.com/report/bo/report-prefill-uploaded-summary-not-sent,200,2.99,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""_id"" : ""68d23119c0941f6fce42423a"",
+      ""userId"" : 20751,
+      ""customerNumber"" : ""1123357745"",
+      ""name"" : ""Tushar Shilimkar"",
+      ""statusId"" : 46,
+      ""statusName"" : ""Documents Incomplete"",... (truncated)"
+GET,/bo/refund/requests,https://dev-api.taxbuddy.com/report/bo/refund/requests,500,2.77,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Cannot invoke \""java.lang.Integer.intValue()\"" because \""page\"" is null"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/query,https://dev-api.taxbuddy.com/report/bo/query,403,2.77,,"{
+  ""success"" : false,
+  ""error"" : ""FORBIDDEN"",
+  ""message"" : ""Not_Authorized"",
+  ""data"" : null,
+  ""httpErrorCode"" : 403
+}"
+GET,/bo/proforma-invoice-send-report,https://dev-api.taxbuddy.com/report/bo/proforma-invoice-send-report,TIMEOUT,30,Request timeout after 30s,
+GET,/bo/payout-adjustment-report,https://dev-api.taxbuddy.com/report/bo/payout-adjustment-report,404,2.91,,"{
+  ""success"" : false,
+  ""error"" : ""NOT_FOUND"",
+  ""message"" : ""Not_found"",
+  ""data"" : null,
+  ""httpErrorCode"" : 404
+}"
+GET,/bo/payment-received-status-report,https://dev-api.taxbuddy.com/report/bo/payment-received-status-report,200,3.74,,"""User Id"",""User Name"",""Mobile No"",""Email Id"",""Plan Name"",""Payment Completion Date"",""Service Type"",""Leader Name"",""Filer Name"",""User Status"",""ITR filed Status"",""No of invoices against"",""Payment Received"",""PartnerId""
+""15229"",""Test Test"",""1826452621"",""abs@taxbuddy.com"",""Capital Gain Plan"",""03-04-25"",""IT... (truncated)"
+GET,/bo/payment-done-but-itr-not-filed,https://dev-api.taxbuddy.com/report/bo/payment-done-but-itr-not-filed,200,2.71,,"{
+  ""success"" : false,
+  ""error"" : null,
+  ""message"" : ""Error : text"",
+  ""data"" : null,
+  ""httpErrorCode"" : 200
+}"
+GET,/bo/pan-details,https://dev-api.taxbuddy.com/report/bo/pan-details,200,2.77,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""pan_exception_added"" : false
+  },
+  ""httpErrorCode"" : 200
+}"
+GET,/bo/last-year-filing-data-for-mandar,https://dev-api.taxbuddy.com/report/bo/last-year-filing-data-for-mandar,200,2.87,,
+GET,/bo/itrU-details,https://dev-api.taxbuddy.com/report/bo/itrU-details,500,2.77,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Required request parameter 'itrUFinancialYears' for method parameter type List is not present"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/itr-report,https://dev-api.taxbuddy.com/report/bo/itr-report,200,4.43,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : [ ],
+  ""httpErrorCode"" : 200
+}"
+GET,/bo/itr-list,https://dev-api.taxbuddy.com/report/bo/itr-list,500,2.74,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Cannot invoke \""String.split(String)\"" because \""financialYear\"" is null"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/itr-filing-credit,https://dev-api.taxbuddy.com/report/bo/itr-filing-credit,404,2.76,,"{
+  ""success"" : false,
+  ""error"" : ""NOT_FOUND"",
+  ""message"" : ""Not_found: Data not found"",
+  ""data"" : null,
+  ""httpErrorCode"" : 404
+}"
+GET,/bo/itr-filed-users-details-report,https://dev-api.taxbuddy.com/report/bo/itr-filed-users-details-report,200,2.76,,"""user Id"",""utm source"",""utm medium"",""utm campaign"",""compid"",""platform"",""payment status"",""tax invoice amount"",""proforma invoice amount"",""Date of Filing"",""City"",""State"",""Pin Code""
+""15139"","""","""","""","""",""WebSite"",""Paid"",""1297.0"","""",""2025-07-10"",""Mumbai"",""Maharashtra"",""400001""
+""18554"","""","""","""","""",""WebSite... (truncated)"
+GET,/bo/itr-filed-automation,https://dev-api.taxbuddy.com/report/bo/itr-filed-automation,200,2.87,,
+GET,/bo/itr-filed-and-discount-details,https://dev-api.taxbuddy.com/report/bo/itr-filed-and-discount-details,200,2.77,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : null,
+  ""httpErrorCode"" : 200
+}"
+GET,/bo/itr-efiling-date,https://dev-api.taxbuddy.com/report/bo/itr-efiling-date,200,2.76,,
+GET,/bo/itr-customer-report,https://dev-api.taxbuddy.com/report/bo/itr-customer-report,200,2.77,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : null,
+  ""httpErrorCode"" : 200
+}"
+GET,/bo/invoice/report,https://dev-api.taxbuddy.com/report/bo/invoice/report,500,2.76,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Cannot invoke \""java.lang.Integer.intValue()\"" because \""pageNumber\"" is null"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/icici-bank-details,https://dev-api.taxbuddy.com/report/bo/icici-bank-details,200,3.07,,
+GET,/bo/future-year-subscription-exists,https://dev-api.taxbuddy.com/report/bo/future-year-subscription-exists,500,2.76,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Cannot invoke \""java.lang.Integer.intValue()\"" because \""userId\"" is null"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/filing-done-but-payment-not-received,https://dev-api.taxbuddy.com/report/bo/filing-done-but-payment-not-received,500,2.77,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_value' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/filing-details,https://dev-api.taxbuddy.com/report/bo/filing-details,200,2.97,,
+GET,/bo/filed-itr-details,https://dev-api.taxbuddy.com/report/bo/filed-itr-details,200,2.76,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : null,
+  ""httpErrorCode"" : 200
+}"
+GET,/bo/duplicate-pan-itr,https://dev-api.taxbuddy.com/report/bo/duplicate-pan-itr,200,2.97,,
+GET,/bo/documents-uploaded-filing-not-done,https://dev-api.taxbuddy.com/report/bo/documents-uploaded-filing-not-done,500,2.77,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_value' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/data-migration-elastic-search,https://dev-api.taxbuddy.com/report/bo/data-migration-elastic-search,200,2.76,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : null,
+  ""httpErrorCode"" : 200
+}"
+GET,/bo/dashboard/waiting-for-confirmation,https://dev-api.taxbuddy.com/report/bo/dashboard/waiting-for-confirmation,500,2.76,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_valueT18:30:00.000Z' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/dashboard/status-wise-report,https://dev-api.taxbuddy.com/report/bo/dashboard/status-wise-report,500,2.87,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_value' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/dashboard/sme-report,https://dev-api.taxbuddy.com/report/bo/dashboard/sme-report,200,2.77,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""totalSMEs"" : 39,
+    ""leaders"" : 9,
+    ""internalFiler"" : 7,
+    ""externalFiler"" : 23,
+    ""individualFilers"" : 2,
+    ""principalFilers"" : 5,
+    ""assistantFilers"" : 6
+  },
+  ""httpErrorCode"" : 200
+}"
+GET,/bo/dashboard/schedule-call,https://dev-api.taxbuddy.com/report/bo/dashboard/schedule-call,500,2.76,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_value' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/dashboard/payment-received-but-filing-not-started,https://dev-api.taxbuddy.com/report/bo/dashboard/payment-received-but-filing-not-started,500,2.87,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_valueT18:30:00.000Z' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/dashboard/partner-commission-cumulative,https://dev-api.taxbuddy.com/report/bo/dashboard/partner-commission-cumulative,500,2.77,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_value' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/dashboard/itr-filed-everification-pending,https://dev-api.taxbuddy.com/report/bo/dashboard/itr-filed-everification-pending,500,2.84,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_valueT18:30:00.000Z' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/dashboard/itr-filed-but-payment-pending,https://dev-api.taxbuddy.com/report/bo/dashboard/itr-filed-but-payment-pending,500,2.75,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_valueT18:30:00.000Z' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/dashboard/invoice-report,https://dev-api.taxbuddy.com/report/bo/dashboard/invoice-report,500,2.81,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_valueT18:30:00.000Z' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/dashboard/doc-uploaded-filing-not-started,https://dev-api.taxbuddy.com/report/bo/dashboard/doc-uploaded-filing-not-started,500,2.7,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_valueT18:30:00.000Z' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/dashboard/diy-assisted-statuswise-report,https://dev-api.taxbuddy.com/report/bo/dashboard/diy-assisted-statuswise-report,200,2.83,,"{
+  ""success"" : false,
+  ""error"" : null,
+  ""message"" : ""Error : Failed to generate DIY Assisted statuswise report: Text 'test_value' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 200
+}"
+GET,/bo/dashboard/calling-summary,https://dev-api.taxbuddy.com/report/bo/dashboard/calling-summary,500,2.76,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_value' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/dashboard/attendance-performance-report,https://dev-api.taxbuddy.com/report/bo/dashboard/attendance-performance-report,500,2.77,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Cannot invoke \""java.lang.Integer.intValue()\"" because \""page\"" is null"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/customer-signup-report,https://dev-api.taxbuddy.com/report/bo/customer-signup-report,500,2.77,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Cannot read the array length because \""fileData\"" is null"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/credit-note,https://dev-api.taxbuddy.com/report/bo/credit-note,200,2.76,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ ],
+    ""pageable"" : {
+      ""pageNumber"" : 0,
+      ""pageSize"" : 20,
+      ""sort"" : {
+        ""empty"" : false,
+        ""sorted"" : true,
+        ""unsorted"" : false
+      },
+      ""offset"" : 0,
+      ""paged"" : t... (truncated)"
+GET,/bo/claim-exemption-in-salary,https://dev-api.taxbuddy.com/report/bo/claim-exemption-in-salary,200,2.87,,"{
+  ""success"" : false,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : null,
+  ""httpErrorCode"" : 200
+}"
+GET,/bo/calling-report/schedule-call-report,https://dev-api.taxbuddy.com/report/bo/calling-report/schedule-call-report,200,2.76,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""filerName"" : ""TaxBuddy AI DIY 1"",
+      ""totalScheduleCallAssigned"" : 75,
+      ""noOfCallDone"" : 3,
+      ""noOfCallScheduleForLater"" : 72,
+      ""noOfCallNotDone"" : 0,
+      ""parentName"" : ""Brij""
+    ... (truncated)"
+GET,/bo/calling-report/revenue-report,https://dev-api.taxbuddy.com/report/bo/calling-report/revenue-report,500,2.66,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Cannot invoke \""java.lang.Integer.intValue()\"" because \""page\"" is null"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/calling-report/missed-inbound-calls,https://dev-api.taxbuddy.com/report/bo/calling-report/missed-inbound-calls,500,2.71,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_value' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/calling-report/missed-chat-report,https://dev-api.taxbuddy.com/report/bo/calling-report/missed-chat-report,500,2.72,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_value' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/calling-report/missed-chat-list,https://dev-api.taxbuddy.com/report/bo/calling-report/missed-chat-list,500,3.07,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_value' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/calling-report/itr-filing-report,https://dev-api.taxbuddy.com/report/bo/calling-report/itr-filing-report,500,2.87,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_value' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/calling-report/daily-sign-up-report,https://dev-api.taxbuddy.com/report/bo/calling-report/daily-sign-up-report,500,2.84,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_value' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/calling-report/daily-calling-report,https://dev-api.taxbuddy.com/report/bo/calling-report/daily-calling-report,500,2.69,,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_value' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/bo/add-client-done-no-filing,https://dev-api.taxbuddy.com/report/bo/add-client-done-no-filing,200,2.76,,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : null,
+  ""httpErrorCode"" : 200
+}"

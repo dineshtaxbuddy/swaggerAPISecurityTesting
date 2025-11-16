@@ -1,0 +1,946 @@
+METHOD,PATH,URL,ATTEMPT,STATUS_CODE,DURATION_SEC,ERROR,RATE_LIMIT_NOTE,RESPONSE
+GET,/{userId}/child-details,https://dev-api.taxbuddy.com/report/{}/child-details,1,500,2.66,,Response 500 on attempt 1,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""For input string: \""{}\"""",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/{userId}/child-details,https://dev-api.taxbuddy.com/report/{}/child-details,2,500,2.67,,Response 500 on attempt 2,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""For input string: \""{}\"""",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/{userId}/child-details,https://dev-api.taxbuddy.com/report/{}/child-details,3,500,2.66,,Response 500 on attempt 3,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""For input string: \""{}\"""",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/{loggedInSmeUserId}/user-list-new,https://dev-api.taxbuddy.com/report/1/user-list-new,1,200,2.77,,Success on attempt 1,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : ""7c95bdbf-e346-4bae-b596-fcc1c43b267f"",
+      ""createdDate"" : ""2025-11-15T18:18:24.659Z"",
+      ""lastModifiedBy"" : ""7c95bdbf-e346-4bae-b596-fcc1c43b267f"",
+      ""lastModifiedDate"" : ""2025... (truncated)"
+GET,/{loggedInSmeUserId}/user-list-new,https://dev-api.taxbuddy.com/report/1/user-list-new,2,200,2.66,,Success on attempt 2,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : ""7c95bdbf-e346-4bae-b596-fcc1c43b267f"",
+      ""createdDate"" : ""2025-11-15T18:18:24.659Z"",
+      ""lastModifiedBy"" : ""7c95bdbf-e346-4bae-b596-fcc1c43b267f"",
+      ""lastModifiedDate"" : ""2025... (truncated)"
+GET,/{loggedInSmeUserId}/user-list-new,https://dev-api.taxbuddy.com/report/1/user-list-new,3,200,2.65,,Success on attempt 3,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : ""7c95bdbf-e346-4bae-b596-fcc1c43b267f"",
+      ""createdDate"" : ""2025-11-15T18:18:24.659Z"",
+      ""lastModifiedBy"" : ""7c95bdbf-e346-4bae-b596-fcc1c43b267f"",
+      ""lastModifiedDate"" : ""2025... (truncated)"
+GET,/validate-promo-code,https://dev-api.taxbuddy.com/report/validate-promo-code,1,500,2.68,,Response 500 on attempt 1,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Regex string must not be null"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/validate-promo-code,https://dev-api.taxbuddy.com/report/validate-promo-code,2,500,2.66,,Response 500 on attempt 2,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Regex string must not be null"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/validate-promo-code,https://dev-api.taxbuddy.com/report/validate-promo-code,3,500,2.66,,Response 500 on attempt 3,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Regex string must not be null"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/v1/invoice/reminder/mail,https://dev-api.taxbuddy.com/report/v1/invoice/reminder/mail,1,404,2.66,,Response 404 on attempt 1,"{
+  ""success"" : false,
+  ""error"" : ""NOT_FOUND"",
+  ""message"" : ""Not_found: invoice not found"",
+  ""data"" : null,
+  ""httpErrorCode"" : 404
+}"
+GET,/v1/invoice/reminder/mail,https://dev-api.taxbuddy.com/report/v1/invoice/reminder/mail,2,404,2.66,,Response 404 on attempt 2,"{
+  ""success"" : false,
+  ""error"" : ""NOT_FOUND"",
+  ""message"" : ""Not_found: invoice not found"",
+  ""data"" : null,
+  ""httpErrorCode"" : 404
+}"
+GET,/v1/invoice/reminder/mail,https://dev-api.taxbuddy.com/report/v1/invoice/reminder/mail,3,404,2.66,,Response 404 on attempt 3,"{
+  ""success"" : false,
+  ""error"" : ""NOT_FOUND"",
+  ""message"" : ""Not_found: invoice not found"",
+  ""data"" : null,
+  ""httpErrorCode"" : 404
+}"
+GET,/v1/invoice/refund/requests,https://dev-api.taxbuddy.com/report/v1/invoice/refund/requests,1,200,2.69,,Success on attempt 1,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : ""3000"",
+      ""createdDate"" : ""2025-11-02T21:08:41.221Z"",
+      ""lastModifiedBy"" : ""3000"",
+      ""lastModifiedDate"" : ""2025-11-02T21:08:41.221Z"",
+      ""id"" : ""6907c85937d8567cefc4ec11"",
+... (truncated)"
+GET,/v1/invoice/refund/requests,https://dev-api.taxbuddy.com/report/v1/invoice/refund/requests,2,200,2.66,,Success on attempt 2,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : ""3000"",
+      ""createdDate"" : ""2025-11-02T21:08:41.221Z"",
+      ""lastModifiedBy"" : ""3000"",
+      ""lastModifiedDate"" : ""2025-11-02T21:08:41.221Z"",
+      ""id"" : ""6907c85937d8567cefc4ec11"",
+... (truncated)"
+GET,/v1/invoice/refund/requests,https://dev-api.taxbuddy.com/report/v1/invoice/refund/requests,3,200,2.66,,Success on attempt 3,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : ""3000"",
+      ""createdDate"" : ""2025-11-02T21:08:41.221Z"",
+      ""lastModifiedBy"" : ""3000"",
+      ""lastModifiedDate"" : ""2025-11-02T21:08:41.221Z"",
+      ""id"" : ""6907c85937d8567cefc4ec11"",
+... (truncated)"
+GET,/v1/invoice/download,https://dev-api.taxbuddy.com/report/v1/invoice/download,1,200,2.64,,Success on attempt 1,
+GET,/v1/invoice/download,https://dev-api.taxbuddy.com/report/v1/invoice/download,2,200,2.66,,Success on attempt 2,
+GET,/v1/invoice/download,https://dev-api.taxbuddy.com/report/v1/invoice/download,3,200,2.66,,Success on attempt 3,
+GET,/v1/invoice/back-office,https://dev-api.taxbuddy.com/report/v1/invoice/back-office,1,500,2.66,,Response 500 on attempt 1,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""text"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/v1/invoice/back-office,https://dev-api.taxbuddy.com/report/v1/invoice/back-office,2,500,2.66,,Response 500 on attempt 2,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""text"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/v1/invoice/back-office,https://dev-api.taxbuddy.com/report/v1/invoice/back-office,3,500,2.66,,Response 500 on attempt 3,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""text"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/users-itr-payment-done,https://dev-api.taxbuddy.com/report/users-itr-payment-done,1,500,2.66,,Response 500 on attempt 1,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Cannot invoke \""java.lang.Integer.intValue()\"" because \""page\"" is null"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/users-itr-payment-done,https://dev-api.taxbuddy.com/report/users-itr-payment-done,2,500,2.66,,Response 500 on attempt 2,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Cannot invoke \""java.lang.Integer.intValue()\"" because \""page\"" is null"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/users-itr-payment-done,https://dev-api.taxbuddy.com/report/users-itr-payment-done,3,500,2.66,,Response 500 on attempt 3,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Cannot invoke \""java.lang.Integer.intValue()\"" because \""page\"" is null"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/swagger/config,https://dev-api.taxbuddy.com/report/swagger/config,1,200,2.59,,Success on attempt 1,"{
+  ""configUrl"" : ""https://dev-api.taxbuddy.com/report/swagger/config"",
+  ""validatorUrl"" : """",
+  ""oauth2RedirectUrl"" : ""https://dev-api.taxbuddy.com/report/swagger-ui/oauth2-redirect.html"",
+  ""url"" : ""https://dev-api.taxbuddy.com/report/v3/api-docs""
+}"
+GET,/swagger/config,https://dev-api.taxbuddy.com/report/swagger/config,2,200,2.63,,Success on attempt 2,"{
+  ""configUrl"" : ""https://dev-api.taxbuddy.com/report/swagger/config"",
+  ""validatorUrl"" : """",
+  ""oauth2RedirectUrl"" : ""https://dev-api.taxbuddy.com/report/swagger-ui/oauth2-redirect.html"",
+  ""url"" : ""https://dev-api.taxbuddy.com/report/v3/api-docs""
+}"
+GET,/swagger/config,https://dev-api.taxbuddy.com/report/swagger/config,3,200,2.66,,Success on attempt 3,"{
+  ""configUrl"" : ""https://dev-api.taxbuddy.com/report/swagger/config"",
+  ""validatorUrl"" : """",
+  ""oauth2RedirectUrl"" : ""https://dev-api.taxbuddy.com/report/swagger-ui/oauth2-redirect.html"",
+  ""url"" : ""https://dev-api.taxbuddy.com/report/v3/api-docs""
+}"
+GET,/summary-sent-report,https://dev-api.taxbuddy.com/report/summary-sent-report,1,200,2.66,,Success on attempt 1,"""UserId"",""Name"",""Email"",""Phone"",""Current status"",""Summary Sent Date"",""Itr Filed"",""Itr Filed Date""
+"
+GET,/summary-sent-report,https://dev-api.taxbuddy.com/report/summary-sent-report,2,200,2.61,,Success on attempt 2,"""UserId"",""Name"",""Email"",""Phone"",""Current status"",""Summary Sent Date"",""Itr Filed"",""Itr Filed Date""
+"
+GET,/summary-sent-report,https://dev-api.taxbuddy.com/report/summary-sent-report,3,200,2.72,,Success on attempt 3,"""UserId"",""Name"",""Email"",""Phone"",""Current status"",""Summary Sent Date"",""Itr Filed"",""Itr Filed Date""
+"
+GET,/subscription/cancel/requests,https://dev-api.taxbuddy.com/report/subscription/cancel/requests,1,200,2.78,,Success on attempt 1,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : ""anonymousUser"",
+      ""createdDate"" : ""2025-10-31T14:37:13.578Z"",
+      ""lastModifiedBy"" : ""3000"",
+      ""lastModifiedDate"" : ""2025-11-02T21:02:27.732Z"",
+      ""id"" : ""6904c99937d8567cef... (truncated)"
+GET,/subscription/cancel/requests,https://dev-api.taxbuddy.com/report/subscription/cancel/requests,2,200,2.65,,Success on attempt 2,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : ""anonymousUser"",
+      ""createdDate"" : ""2025-10-31T14:37:13.578Z"",
+      ""lastModifiedBy"" : ""3000"",
+      ""lastModifiedDate"" : ""2025-11-02T21:02:27.732Z"",
+      ""id"" : ""6904c99937d8567cef... (truncated)"
+GET,/subscription/cancel/requests,https://dev-api.taxbuddy.com/report/subscription/cancel/requests,3,200,2.78,,Success on attempt 3,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : ""anonymousUser"",
+      ""createdDate"" : ""2025-10-31T14:37:13.578Z"",
+      ""lastModifiedBy"" : ""3000"",
+      ""lastModifiedDate"" : ""2025-11-02T21:02:27.732Z"",
+      ""id"" : ""6904c99937d8567cef... (truncated)"
+GET,/subscription-dashboard-new/{loggedInSmeUserId},https://dev-api.taxbuddy.com/report/subscription-dashboard-new/1,1,200,5.5,,Success on attempt 1,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : ""anonymousUser"",
+      ""createdDate"" : ""2025-11-15T09:46:05.845Z"",
+      ""lastModifiedBy"" : ""anonymousUser"",
+      ""lastModifiedDate"" : ""2025-11-15T09:47:19.591Z"",
+      ""id"" : ""69184bdd9... (truncated)"
+GET,/subscription-dashboard-new/{loggedInSmeUserId},https://dev-api.taxbuddy.com/report/subscription-dashboard-new/1,2,200,10.31,,Success on attempt 2,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : ""anonymousUser"",
+      ""createdDate"" : ""2025-11-15T09:46:05.845Z"",
+      ""lastModifiedBy"" : ""anonymousUser"",
+      ""lastModifiedDate"" : ""2025-11-15T09:47:19.591Z"",
+      ""id"" : ""69184bdd9... (truncated)"
+GET,/subscription-dashboard-new/{loggedInSmeUserId},https://dev-api.taxbuddy.com/report/subscription-dashboard-new/1,3,200,5.53,,Success on attempt 3,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : ""anonymousUser"",
+      ""createdDate"" : ""2025-11-15T09:46:05.845Z"",
+      ""lastModifiedBy"" : ""anonymousUser"",
+      ""lastModifiedDate"" : ""2025-11-15T09:47:19.591Z"",
+      ""id"" : ""69184bdd9... (truncated)"
+GET,/sme-details-new/{userId},https://dev-api.taxbuddy.com/report/sme-details-new/1,1,200,2.72,,Success on attempt 1,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : ""2"",
+      ""createdDate"" : ""2023-03-28T08:54:28.297Z"",
+      ""lastModifiedBy"" : ""system"",
+      ""lastModifiedDate"" : ""2024-11-19T05:53:03.292Z"",
+      ""id"" : ""63d758238e648939a0f96644"",
+ ... (truncated)"
+GET,/sme-details-new/{userId},https://dev-api.taxbuddy.com/report/sme-details-new/1,2,200,2.66,,Success on attempt 2,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : ""2"",
+      ""createdDate"" : ""2023-03-28T08:54:28.297Z"",
+      ""lastModifiedBy"" : ""system"",
+      ""lastModifiedDate"" : ""2024-11-19T05:53:03.292Z"",
+      ""id"" : ""63d758238e648939a0f96644"",
+ ... (truncated)"
+GET,/sme-details-new/{userId},https://dev-api.taxbuddy.com/report/sme-details-new/1,3,200,2.66,,Success on attempt 3,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""content"" : [ {
+      ""createdBy"" : ""2"",
+      ""createdDate"" : ""2023-03-28T08:54:28.297Z"",
+      ""lastModifiedBy"" : ""system"",
+      ""lastModifiedDate"" : ""2024-11-19T05:53:03.292Z"",
+      ""id"" : ""63d758238e648939a0f96644"",
+ ... (truncated)"
+GET,/sme-booked-slots,https://dev-api.taxbuddy.com/report/sme-booked-slots,1,200,2.65,,Success on attempt 1,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""bookedSlots"" : [ ]
+  },
+  ""httpErrorCode"" : 200
+}"
+GET,/sme-booked-slots,https://dev-api.taxbuddy.com/report/sme-booked-slots,2,200,2.66,,Success on attempt 2,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""bookedSlots"" : [ ]
+  },
+  ""httpErrorCode"" : 200
+}"
+GET,/sme-booked-slots,https://dev-api.taxbuddy.com/report/sme-booked-slots,3,200,2.56,,Success on attempt 3,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : {
+    ""bookedSlots"" : [ ]
+  },
+  ""httpErrorCode"" : 200
+}"
+GET,/send-summary-to-prefill-present-users,https://dev-api.taxbuddy.com/report/send-summary-to-prefill-present-users,1,500,2.76,,Response 500 on attempt 1,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_value' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/send-summary-to-prefill-present-users,https://dev-api.taxbuddy.com/report/send-summary-to-prefill-present-users,2,500,2.66,,Response 500 on attempt 2,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_value' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/send-summary-to-prefill-present-users,https://dev-api.taxbuddy.com/report/send-summary-to-prefill-present-users,3,500,2.66,,Response 500 on attempt 3,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Text 'test_value' could not be parsed at index 0"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/search/userprofile/query,https://dev-api.taxbuddy.com/report/search/userprofile/query,1,200,2.67,,Success on attempt 1,"{
+  ""pageSize"" : 0,
+  ""offset"" : 0,
+  ""totalRecords"" : 0,
+  ""sort"" : null,
+  ""records"" : null,
+  ""pageNumber"" : 0,
+  ""paged"" : true,
+  ""unpaged"" : false
+}"
+GET,/search/userprofile/query,https://dev-api.taxbuddy.com/report/search/userprofile/query,2,200,2.66,,Success on attempt 2,"{
+  ""pageSize"" : 0,
+  ""offset"" : 0,
+  ""totalRecords"" : 0,
+  ""sort"" : null,
+  ""records"" : null,
+  ""pageNumber"" : 0,
+  ""paged"" : true,
+  ""unpaged"" : false
+}"
+GET,/search/userprofile/query,https://dev-api.taxbuddy.com/report/search/userprofile/query,3,200,2.66,,Success on attempt 3,"{
+  ""pageSize"" : 0,
+  ""offset"" : 0,
+  ""totalRecords"" : 0,
+  ""sort"" : null,
+  ""records"" : null,
+  ""pageNumber"" : 0,
+  ""paged"" : true,
+  ""unpaged"" : false
+}"
+GET,/script-itr-filed-users,https://dev-api.taxbuddy.com/report/script-itr-filed-users,1,200,3.28,,Success on attempt 1,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : [ {
+    ""createdBy"" : null,
+    ""createdDate"" : ""2025-11-16T07:54:08.916157178Z"",
+    ""lastModifiedBy"" : null,
+    ""lastModifiedDate"" : ""2025-11-16T07:54:08.916157423Z"",
+    ""id"" : ""64a5498c9c20697f4b27fdcf"",
+    ""userId"" : 11981... (truncated)"
+GET,/script-itr-filed-users,https://dev-api.taxbuddy.com/report/script-itr-filed-users,2,200,2.86,,Success on attempt 2,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : [ {
+    ""createdBy"" : null,
+    ""createdDate"" : ""2025-11-16T07:54:11.920315678Z"",
+    ""lastModifiedBy"" : null,
+    ""lastModifiedDate"" : ""2025-11-16T07:54:11.920315929Z"",
+    ""id"" : ""64a5498c9c20697f4b27fdcf"",
+    ""userId"" : 11981... (truncated)"
+GET,/script-itr-filed-users,https://dev-api.taxbuddy.com/report/script-itr-filed-users,3,200,2.84,,Success on attempt 3,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : [ {
+    ""createdBy"" : null,
+    ""createdDate"" : ""2025-11-16T07:54:14.753127064Z"",
+    ""lastModifiedBy"" : null,
+    ""lastModifiedDate"" : ""2025-11-16T07:54:14.753127290Z"",
+    ""id"" : ""64a5498c9c20697f4b27fdcf"",
+    ""userId"" : 11981... (truncated)"
+GET,/promocodes,https://dev-api.taxbuddy.com/report/promocodes,1,200,2.64,,Success on attempt 1,"{
+  ""content"" : [ {
+    ""createdBy"" : null,
+    ""createdDate"" : ""2021-04-08T18:20:07.422Z"",
+    ""lastModifiedBy"" : ""5fd22403-04b7-4404-ba7c-ac673e0d183f"",
+    ""lastModifiedDate"" : ""2021-06-03T13:02:39.405Z"",
+    ""id"" : ""603e0d50fe8ed880593e9a8f"",
+    ""code"" : ""BIKAYI40"",
+    ""title"" : ""BIKAYI Flat 4... (truncated)"
+GET,/promocodes,https://dev-api.taxbuddy.com/report/promocodes,2,200,2.73,,Success on attempt 2,"{
+  ""content"" : [ {
+    ""createdBy"" : null,
+    ""createdDate"" : ""2021-04-08T18:20:07.422Z"",
+    ""lastModifiedBy"" : ""5fd22403-04b7-4404-ba7c-ac673e0d183f"",
+    ""lastModifiedDate"" : ""2021-06-03T13:02:39.405Z"",
+    ""id"" : ""603e0d50fe8ed880593e9a8f"",
+    ""code"" : ""BIKAYI40"",
+    ""title"" : ""BIKAYI Flat 4... (truncated)"
+GET,/promocodes,https://dev-api.taxbuddy.com/report/promocodes,3,200,2.66,,Success on attempt 3,"{
+  ""content"" : [ {
+    ""createdBy"" : null,
+    ""createdDate"" : ""2021-04-08T18:20:07.422Z"",
+    ""lastModifiedBy"" : ""5fd22403-04b7-4404-ba7c-ac673e0d183f"",
+    ""lastModifiedDate"" : ""2021-06-03T13:02:39.405Z"",
+    ""id"" : ""603e0d50fe8ed880593e9a8f"",
+    ""code"" : ""BIKAYI40"",
+    ""title"" : ""BIKAYI Flat 4... (truncated)"
+GET,/payout/report,https://dev-api.taxbuddy.com/report/payout/report,1,500,2.64,,Response 500 on attempt 1,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""fromIndex(1) > toIndex(0)"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/payout/report,https://dev-api.taxbuddy.com/report/payout/report,2,500,2.66,,Response 500 on attempt 2,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""fromIndex(1) > toIndex(0)"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/payout/report,https://dev-api.taxbuddy.com/report/payout/report,3,500,2.66,,Response 500 on attempt 3,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""fromIndex(1) > toIndex(0)"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/payout/partner-payment-report,https://dev-api.taxbuddy.com/report/payout/partner-payment-report,1,200,2.66,,Success on attempt 1,"""Sr No"",""Name"",""Mobile"",""Email"",""GST No"",""Tax invoice Amount"",""GST Amount"",""Commission Earned"",""Commission paid"",""Total TDS on commission"",""TDS amount deducted"",""TDS more to Deduct"",""Pan""
+"
+GET,/payout/partner-payment-report,https://dev-api.taxbuddy.com/report/payout/partner-payment-report,2,200,2.66,,Success on attempt 2,"""Sr No"",""Name"",""Mobile"",""Email"",""GST No"",""Tax invoice Amount"",""GST Amount"",""Commission Earned"",""Commission paid"",""Total TDS on commission"",""TDS amount deducted"",""TDS more to Deduct"",""Pan""
+"
+GET,/payout/partner-payment-report,https://dev-api.taxbuddy.com/report/payout/partner-payment-report,3,200,2.66,,Success on attempt 3,"""Sr No"",""Name"",""Mobile"",""Email"",""GST No"",""Tax invoice Amount"",""GST Amount"",""Commission Earned"",""Commission paid"",""Total TDS on commission"",""TDS amount deducted"",""TDS more to Deduct"",""Pan""
+"
+GET,/payout/csv-data,https://dev-api.taxbuddy.com/report/payout/csv-data,1,404,2.66,,Response 404 on attempt 1,"{
+  ""success"" : false,
+  ""error"" : ""NOT_FOUND"",
+  ""message"" : ""Not_found: No Data found"",
+  ""data"" : null,
+  ""httpErrorCode"" : 404
+}"
+GET,/payout/csv-data,https://dev-api.taxbuddy.com/report/payout/csv-data,2,404,2.66,,Response 404 on attempt 2,"{
+  ""success"" : false,
+  ""error"" : ""NOT_FOUND"",
+  ""message"" : ""Not_found: No Data found"",
+  ""data"" : null,
+  ""httpErrorCode"" : 404
+}"
+GET,/payout/csv-data,https://dev-api.taxbuddy.com/report/payout/csv-data,3,404,2.76,,Response 404 on attempt 3,"{
+  ""success"" : false,
+  ""error"" : ""NOT_FOUND"",
+  ""message"" : ""Not_found: No Data found"",
+  ""data"" : null,
+  ""httpErrorCode"" : 404
+}"
+GET,/partner-rating,https://dev-api.taxbuddy.com/report/partner-rating,1,404,2.64,,Response 404 on attempt 1,"{
+  ""success"" : false,
+  ""error"" : ""NOT_FOUND"",
+  ""message"" : ""Not_found"",
+  ""data"" : null,
+  ""httpErrorCode"" : 404
+}"
+GET,/partner-rating,https://dev-api.taxbuddy.com/report/partner-rating,2,404,2.69,,Response 404 on attempt 2,"{
+  ""success"" : false,
+  ""error"" : ""NOT_FOUND"",
+  ""message"" : ""Not_found"",
+  ""data"" : null,
+  ""httpErrorCode"" : 404
+}"
+GET,/partner-rating,https://dev-api.taxbuddy.com/report/partner-rating,3,404,2.59,,Response 404 on attempt 3,"{
+  ""success"" : false,
+  ""error"" : ""NOT_FOUND"",
+  ""message"" : ""Not_found"",
+  ""data"" : null,
+  ""httpErrorCode"" : 404
+}"
+GET,/partner-details,https://dev-api.taxbuddy.com/report/partner-details,1,200,2.79,,Success on attempt 1,"[ {
+  ""createdBy"" : ""anonymousUser"",
+  ""createdDate"" : ""2021-02-10T09:17:00.523Z"",
+  ""lastModifiedBy"" : ""system"",
+  ""lastModifiedDate"" : ""2021-02-22T10:40:23.007Z"",
+  ""id"" : ""6023a48cfc372f00016003a4"",
+  ""name"" : null,
+  ""mobileNumber"" : ""19767374273"",
+  ""emailAddress"" : ""dinesh1@gmail.com"",
+  ""chan... (truncated)"
+GET,/partner-details,https://dev-api.taxbuddy.com/report/partner-details,2,200,2.81,,Success on attempt 2,"[ {
+  ""createdBy"" : ""anonymousUser"",
+  ""createdDate"" : ""2021-02-10T09:17:00.523Z"",
+  ""lastModifiedBy"" : ""system"",
+  ""lastModifiedDate"" : ""2021-02-22T10:40:23.007Z"",
+  ""id"" : ""6023a48cfc372f00016003a4"",
+  ""name"" : null,
+  ""mobileNumber"" : ""19767374273"",
+  ""emailAddress"" : ""dinesh1@gmail.com"",
+  ""chan... (truncated)"
+GET,/partner-details,https://dev-api.taxbuddy.com/report/partner-details,3,200,2.72,,Success on attempt 3,"[ {
+  ""createdBy"" : ""anonymousUser"",
+  ""createdDate"" : ""2021-02-10T09:17:00.523Z"",
+  ""lastModifiedBy"" : ""system"",
+  ""lastModifiedDate"" : ""2021-02-22T10:40:23.007Z"",
+  ""id"" : ""6023a48cfc372f00016003a4"",
+  ""name"" : null,
+  ""mobileNumber"" : ""19767374273"",
+  ""emailAddress"" : ""dinesh1@gmail.com"",
+  ""chan... (truncated)"
+GET,/itr-report-income-source-mismatch,https://dev-api.taxbuddy.com/report/itr-report-income-source-mismatch,1,200,2.71,,Success on attempt 1,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : [ ],
+  ""httpErrorCode"" : 200
+}"
+GET,/itr-report-income-source-mismatch,https://dev-api.taxbuddy.com/report/itr-report-income-source-mismatch,2,200,2.66,,Success on attempt 2,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : [ ],
+  ""httpErrorCode"" : 200
+}"
+GET,/itr-report-income-source-mismatch,https://dev-api.taxbuddy.com/report/itr-report-income-source-mismatch,3,200,2.66,,Success on attempt 3,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : [ ],
+  ""httpErrorCode"" : 200
+}"
+GET,/itr-list,https://dev-api.taxbuddy.com/report/itr-list,1,500,2.72,,Response 500 on attempt 1,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""class java.lang.Integer cannot be cast to class java.lang.Long (java.lang.Integer and java.lang.Long are in module java.base of loader 'bootstrap')"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/itr-list,https://dev-api.taxbuddy.com/report/itr-list,2,500,2.71,,Response 500 on attempt 2,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""class java.lang.Integer cannot be cast to class java.lang.Long (java.lang.Integer and java.lang.Long are in module java.base of loader 'bootstrap')"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/itr-list,https://dev-api.taxbuddy.com/report/itr-list,3,500,2.66,,Response 500 on attempt 3,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""class java.lang.Integer cannot be cast to class java.lang.Long (java.lang.Integer and java.lang.Long are in module java.base of loader 'bootstrap')"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/itr-filed-everification-pending-csv,https://dev-api.taxbuddy.com/report/itr-filed-everification-pending-csv,1,200,2.66,,Success on attempt 1,"""Sr.No"",""User Id"",""Phone number"",""Email id"",""ITR filed through"",""E-Verification Pending"",""Return Type"",""Acknowledgement Number""
+""1"",""19231"",""0809076576"",""aditya.bhintade@taxbuddy.com"",""MANUALLY"",""Yes"",""Original"",""0000000000100725""
+""2"",""15139"",""4532636256"",""aditya.bhintade@taxbuddy.com"",""MANUALLY"",""Y... (truncated)"
+GET,/itr-filed-everification-pending-csv,https://dev-api.taxbuddy.com/report/itr-filed-everification-pending-csv,2,200,2.66,,Success on attempt 2,"""Sr.No"",""User Id"",""Phone number"",""Email id"",""ITR filed through"",""E-Verification Pending"",""Return Type"",""Acknowledgement Number""
+""1"",""19231"",""0809076576"",""aditya.bhintade@taxbuddy.com"",""MANUALLY"",""Yes"",""Original"",""0000000000100725""
+""2"",""15139"",""4532636256"",""aditya.bhintade@taxbuddy.com"",""MANUALLY"",""Y... (truncated)"
+GET,/itr-filed-everification-pending-csv,https://dev-api.taxbuddy.com/report/itr-filed-everification-pending-csv,3,200,2.62,,Success on attempt 3,"""Sr.No"",""User Id"",""Phone number"",""Email id"",""ITR filed through"",""E-Verification Pending"",""Return Type"",""Acknowledgement Number""
+""1"",""19231"",""0809076576"",""aditya.bhintade@taxbuddy.com"",""MANUALLY"",""Yes"",""Original"",""0000000000100725""
+""2"",""15139"",""4532636256"",""aditya.bhintade@taxbuddy.com"",""MANUALLY"",""Y... (truncated)"
+GET,/invoice/stop-reminder,https://dev-api.taxbuddy.com/report/invoice/stop-reminder,1,200,2.64,,Success on attempt 1,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : [ ],
+  ""httpErrorCode"" : 200
+}"
+GET,/invoice/stop-reminder,https://dev-api.taxbuddy.com/report/invoice/stop-reminder,2,200,2.62,,Success on attempt 2,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : [ ],
+  ""httpErrorCode"" : 200
+}"
+GET,/invoice/stop-reminder,https://dev-api.taxbuddy.com/report/invoice/stop-reminder,3,200,2.66,,Success on attempt 3,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : [ ],
+  ""httpErrorCode"" : 200
+}"
+GET,/invoice/report,https://dev-api.taxbuddy.com/report/invoice/report,1,200,8.42,,Success on attempt 1,"[ {
+  ""createdBy"" : ""anonymousUser"",
+  ""createdDate"" : ""2025-11-15T09:46:07.481Z"",
+  ""lastModifiedBy"" : ""anonymousUser"",
+  ""lastModifiedDate"" : ""2025-11-15T09:47:19.453Z"",
+  ""_id"" : ""69184bdf90bb5107022f744e"",
+  ""subscriptionId"" : 8618,
+  ""txbdyInvoiceId"" : 7047,
+  ""userId"" : 21585,
+  ""invoiceNo"" : ... (truncated)"
+GET,/invoice/report,https://dev-api.taxbuddy.com/report/invoice/report,2,200,9.66,,Success on attempt 2,"[ {
+  ""createdBy"" : ""anonymousUser"",
+  ""createdDate"" : ""2025-11-15T09:46:07.481Z"",
+  ""lastModifiedBy"" : ""anonymousUser"",
+  ""lastModifiedDate"" : ""2025-11-15T09:47:19.453Z"",
+  ""_id"" : ""69184bdf90bb5107022f744e"",
+  ""subscriptionId"" : 8618,
+  ""txbdyInvoiceId"" : 7047,
+  ""userId"" : 21585,
+  ""invoiceNo"" : ... (truncated)"
+GET,/invoice/report,https://dev-api.taxbuddy.com/report/invoice/report,3,200,9.17,,Success on attempt 3,"[ {
+  ""createdBy"" : ""anonymousUser"",
+  ""createdDate"" : ""2025-11-15T09:46:07.481Z"",
+  ""lastModifiedBy"" : ""anonymousUser"",
+  ""lastModifiedDate"" : ""2025-11-15T09:47:19.453Z"",
+  ""_id"" : ""69184bdf90bb5107022f744e"",
+  ""subscriptionId"" : 8618,
+  ""txbdyInvoiceId"" : 7047,
+  ""userId"" : 21585,
+  ""invoiceNo"" : ... (truncated)"
+GET,/invoice/reminder,https://dev-api.taxbuddy.com/report/invoice/reminder,1,404,2.62,,Response 404 on attempt 1,"{
+  ""success"" : false,
+  ""error"" : ""NOT_FOUND"",
+  ""message"" : ""Not_found: invoice not found"",
+  ""data"" : null,
+  ""httpErrorCode"" : 404
+}"
+GET,/invoice/reminder,https://dev-api.taxbuddy.com/report/invoice/reminder,2,404,2.66,,Response 404 on attempt 2,"{
+  ""success"" : false,
+  ""error"" : ""NOT_FOUND"",
+  ""message"" : ""Not_found: invoice not found"",
+  ""data"" : null,
+  ""httpErrorCode"" : 404
+}"
+GET,/invoice/reminder,https://dev-api.taxbuddy.com/report/invoice/reminder,3,404,2.56,,Response 404 on attempt 3,"{
+  ""success"" : false,
+  ""error"" : ""NOT_FOUND"",
+  ""message"" : ""Not_found: invoice not found"",
+  ""data"" : null,
+  ""httpErrorCode"" : 404
+}"
+GET,/invoice/download,https://dev-api.taxbuddy.com/report/invoice/download,1,500,2.66,,Response 500 on attempt 1,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Cannot invoke \""java.lang.Long.longValue()\"" because \""subscriptionId\"" is null"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/invoice/download,https://dev-api.taxbuddy.com/report/invoice/download,2,500,2.66,,Response 500 on attempt 2,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Cannot invoke \""java.lang.Long.longValue()\"" because \""subscriptionId\"" is null"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/invoice/download,https://dev-api.taxbuddy.com/report/invoice/download,3,500,2.66,,Response 500 on attempt 3,"{
+  ""success"" : false,
+  ""error"" : ""INTERNAL_SERVER_ERROR"",
+  ""message"" : ""Cannot invoke \""java.lang.Long.longValue()\"" because \""subscriptionId\"" is null"",
+  ""data"" : null,
+  ""httpErrorCode"" : 500
+}"
+GET,/invoice/csv-report,https://dev-api.taxbuddy.com/report/invoice/csv-report,1,200,2.66,,Success on attempt 1,
+GET,/invoice/csv-report,https://dev-api.taxbuddy.com/report/invoice/csv-report,2,200,2.66,,Success on attempt 2,
+GET,/invoice/csv-report,https://dev-api.taxbuddy.com/report/invoice/csv-report,3,403,0.59,,Response 403 on attempt 3,
+GET,/dashboard/waiting-for-confirmation,https://dev-api.taxbuddy.com/report/dashboard/waiting-for-confirmation,1,403,0.55,,Response 403 on attempt 1,
+GET,/dashboard/waiting-for-confirmation,https://dev-api.taxbuddy.com/report/dashboard/waiting-for-confirmation,2,403,0.53,,Response 403 on attempt 2,
+GET,/dashboard/waiting-for-confirmation,https://dev-api.taxbuddy.com/report/dashboard/waiting-for-confirmation,3,403,0.54,,Response 403 on attempt 3,
+GET,/dashboard/user-data,https://dev-api.taxbuddy.com/report/dashboard/user-data,1,403,0.54,,Response 403 on attempt 1,
+GET,/dashboard/user-data,https://dev-api.taxbuddy.com/report/dashboard/user-data,2,403,0.56,,Response 403 on attempt 2,
+GET,/dashboard/user-data,https://dev-api.taxbuddy.com/report/dashboard/user-data,3,403,0.55,,Response 403 on attempt 3,
+GET,/dashboard/status-wise-report,https://dev-api.taxbuddy.com/report/dashboard/status-wise-report,1,403,0.56,,Response 403 on attempt 1,
+GET,/dashboard/status-wise-report,https://dev-api.taxbuddy.com/report/dashboard/status-wise-report,2,403,0.55,,Response 403 on attempt 2,
+GET,/dashboard/status-wise-report,https://dev-api.taxbuddy.com/report/dashboard/status-wise-report,3,403,0.54,,Response 403 on attempt 3,
+GET,/dashboard/sme-report,https://dev-api.taxbuddy.com/report/dashboard/sme-report,1,403,0.56,,Response 403 on attempt 1,
+GET,/dashboard/sme-report,https://dev-api.taxbuddy.com/report/dashboard/sme-report,2,403,0.54,,Response 403 on attempt 2,
+GET,/dashboard/sme-report,https://dev-api.taxbuddy.com/report/dashboard/sme-report,3,403,0.55,,Response 403 on attempt 3,
+GET,/dashboard/schedule-call-details/{loggedInSmeUserId},https://dev-api.taxbuddy.com/report/dashboard/schedule-call-details/1,1,403,0.56,,Response 403 on attempt 1,
+GET,/dashboard/schedule-call-details/{loggedInSmeUserId},https://dev-api.taxbuddy.com/report/dashboard/schedule-call-details/1,2,403,0.55,,Response 403 on attempt 2,
+GET,/dashboard/schedule-call-details/{loggedInSmeUserId},https://dev-api.taxbuddy.com/report/dashboard/schedule-call-details/1,3,403,0.54,,Response 403 on attempt 3,
+GET,/dashboard/partner-commission,https://dev-api.taxbuddy.com/report/dashboard/partner-commission,1,403,0.55,,Response 403 on attempt 1,
+GET,/dashboard/partner-commission,https://dev-api.taxbuddy.com/report/dashboard/partner-commission,2,403,0.55,,Response 403 on attempt 2,
+GET,/dashboard/partner-commission,https://dev-api.taxbuddy.com/report/dashboard/partner-commission,3,403,0.52,,Response 403 on attempt 3,
+GET,/dashboard/partner-commission-cumulative,https://dev-api.taxbuddy.com/report/dashboard/partner-commission-cumulative,1,403,0.53,,Response 403 on attempt 1,
+GET,/dashboard/partner-commission-cumulative,https://dev-api.taxbuddy.com/report/dashboard/partner-commission-cumulative,2,403,0.53,,Response 403 on attempt 2,
+GET,/dashboard/partner-commission-cumulative,https://dev-api.taxbuddy.com/report/dashboard/partner-commission-cumulative,3,403,0.55,,Response 403 on attempt 3,
+GET,/dashboard/itr-users-overview,https://dev-api.taxbuddy.com/report/dashboard/itr-users-overview,1,403,0.56,,Response 403 on attempt 1,
+GET,/dashboard/itr-users-overview,https://dev-api.taxbuddy.com/report/dashboard/itr-users-overview,2,403,0.54,,Response 403 on attempt 2,
+GET,/dashboard/itr-users-overview,https://dev-api.taxbuddy.com/report/dashboard/itr-users-overview,3,403,0.53,,Response 403 on attempt 3,
+GET,/dashboard/itr-filed-everification-pending,https://dev-api.taxbuddy.com/report/dashboard/itr-filed-everification-pending,1,403,0.54,,Response 403 on attempt 1,
+GET,/dashboard/itr-filed-everification-pending,https://dev-api.taxbuddy.com/report/dashboard/itr-filed-everification-pending,2,403,0.53,,Response 403 on attempt 2,
+GET,/dashboard/itr-filed-everification-pending,https://dev-api.taxbuddy.com/report/dashboard/itr-filed-everification-pending,3,403,0.55,,Response 403 on attempt 3,
+GET,/dashboard/invoice-report,https://dev-api.taxbuddy.com/report/dashboard/invoice-report,1,403,0.56,,Response 403 on attempt 1,
+GET,/dashboard/invoice-report,https://dev-api.taxbuddy.com/report/dashboard/invoice-report,2,403,0.53,,Response 403 on attempt 2,
+GET,/dashboard/invoice-report,https://dev-api.taxbuddy.com/report/dashboard/invoice-report,3,403,0.54,,Response 403 on attempt 3,
+GET,/dashboard/filers-partnerAssignment,https://dev-api.taxbuddy.com/report/dashboard/filers-partnerAssignment,1,403,0.55,,Response 403 on attempt 1,
+GET,/dashboard/filers-partnerAssignment,https://dev-api.taxbuddy.com/report/dashboard/filers-partnerAssignment,2,403,0.54,,Response 403 on attempt 2,
+GET,/dashboard/filers-partnerAssignment,https://dev-api.taxbuddy.com/report/dashboard/filers-partnerAssignment,3,403,0.71,,Response 403 on attempt 3,
+GET,/bo/v1/invoice,https://dev-api.taxbuddy.com/report/bo/v1/invoice,1,403,0.55,,Response 403 on attempt 1,
+GET,/bo/v1/invoice,https://dev-api.taxbuddy.com/report/bo/v1/invoice,2,403,0.56,,Response 403 on attempt 2,
+GET,/bo/v1/invoice,https://dev-api.taxbuddy.com/report/bo/v1/invoice,3,403,0.7,,Response 403 on attempt 3,
+GET,/bo/users-discount-details,https://dev-api.taxbuddy.com/report/bo/users-discount-details,1,403,0.55,,Response 403 on attempt 1,
+GET,/bo/users-discount-details,https://dev-api.taxbuddy.com/report/bo/users-discount-details,2,403,0.55,,Response 403 on attempt 2,
+GET,/bo/users-discount-details,https://dev-api.taxbuddy.com/report/bo/users-discount-details,3,403,0.56,,Response 403 on attempt 3,
+GET,/bo/users-count,https://dev-api.taxbuddy.com/report/bo/users-count,1,403,0.6,,Response 403 on attempt 1,
+GET,/bo/users-count,https://dev-api.taxbuddy.com/report/bo/users-count,2,403,0.54,,Response 403 on attempt 2,
+GET,/bo/users-count,https://dev-api.taxbuddy.com/report/bo/users-count,3,403,0.54,,Response 403 on attempt 3,
+GET,/bo/user-list-new,https://dev-api.taxbuddy.com/report/bo/user-list-new,1,403,0.54,,Response 403 on attempt 1,
+GET,/bo/user-list-new,https://dev-api.taxbuddy.com/report/bo/user-list-new,2,403,0.54,,Response 403 on attempt 2,
+GET,/bo/user-list-new,https://dev-api.taxbuddy.com/report/bo/user-list-new,3,403,0.54,,Response 403 on attempt 3,
+GET,/bo/unpaid-itrU-details,https://dev-api.taxbuddy.com/report/bo/unpaid-itrU-details,1,403,0.54,,Response 403 on attempt 1,
+GET,/bo/unpaid-itrU-details,https://dev-api.taxbuddy.com/report/bo/unpaid-itrU-details,2,403,0.56,,Response 403 on attempt 2,
+GET,/bo/unpaid-itrU-details,https://dev-api.taxbuddy.com/report/bo/unpaid-itrU-details,3,403,0.56,,Response 403 on attempt 3,
+GET,/bo/tax-report,https://dev-api.taxbuddy.com/report/bo/tax-report,1,403,0.56,,Response 403 on attempt 1,
+GET,/bo/tax-report,https://dev-api.taxbuddy.com/report/bo/tax-report,2,403,0.55,,Response 403 on attempt 2,
+GET,/bo/tax-report,https://dev-api.taxbuddy.com/report/bo/tax-report,3,403,0.56,,Response 403 on attempt 3,
+GET,/bo/subscription/coupon-code,https://dev-api.taxbuddy.com/report/bo/subscription/coupon-code,1,403,0.53,,Response 403 on attempt 1,
+GET,/bo/subscription/coupon-code,https://dev-api.taxbuddy.com/report/bo/subscription/coupon-code,2,403,0.55,,Response 403 on attempt 2,
+GET,/bo/subscription/coupon-code,https://dev-api.taxbuddy.com/report/bo/subscription/coupon-code,3,403,0.56,,Response 403 on attempt 3,
+GET,/bo/subscription/coupon-code-exists,https://dev-api.taxbuddy.com/report/bo/subscription/coupon-code-exists,1,403,0.53,,Response 403 on attempt 1,
+GET,/bo/subscription/coupon-code-exists,https://dev-api.taxbuddy.com/report/bo/subscription/coupon-code-exists,2,403,0.54,,Response 403 on attempt 2,
+GET,/bo/subscription/coupon-code-exists,https://dev-api.taxbuddy.com/report/bo/subscription/coupon-code-exists,3,403,0.55,,Response 403 on attempt 3,
+GET,/bo/subscription/cancel/requests,https://dev-api.taxbuddy.com/report/bo/subscription/cancel/requests,1,403,0.55,,Response 403 on attempt 1,
+GET,/bo/subscription/cancel/requests,https://dev-api.taxbuddy.com/report/bo/subscription/cancel/requests,2,403,0.57,,Response 403 on attempt 2,
+GET,/bo/subscription/cancel/requests,https://dev-api.taxbuddy.com/report/bo/subscription/cancel/requests,3,403,0.52,,Response 403 on attempt 3,
+GET,/bo/subscription-dashboard-new,https://dev-api.taxbuddy.com/report/bo/subscription-dashboard-new,1,403,0.55,,Response 403 on attempt 1,
+GET,/bo/subscription-dashboard-new,https://dev-api.taxbuddy.com/report/bo/subscription-dashboard-new,2,403,0.54,,Response 403 on attempt 2,
+GET,/bo/subscription-dashboard-new,https://dev-api.taxbuddy.com/report/bo/subscription-dashboard-new,3,403,0.56,,Response 403 on attempt 3,
+GET,/bo/subscription-adjustment,https://dev-api.taxbuddy.com/report/bo/subscription-adjustment,1,403,0.58,,Response 403 on attempt 1,
+GET,/bo/subscription-adjustment,https://dev-api.taxbuddy.com/report/bo/subscription-adjustment,2,403,0.57,,Response 403 on attempt 2,
+GET,/bo/subscription-adjustment,https://dev-api.taxbuddy.com/report/bo/subscription-adjustment,3,403,0.55,,Response 403 on attempt 3,
+GET,/bo/status-report,https://dev-api.taxbuddy.com/report/bo/status-report,1,403,0.56,,Response 403 on attempt 1,
+GET,/bo/status-report,https://dev-api.taxbuddy.com/report/bo/status-report,2,403,0.52,,Response 403 on attempt 2,
+GET,/bo/status-report,https://dev-api.taxbuddy.com/report/bo/status-report,3,403,0.55,,Response 403 on attempt 3,
+GET,/bo/sme/all-list,https://dev-api.taxbuddy.com/report/bo/sme/all-list,1,403,0.56,,Response 403 on attempt 1,
+GET,/bo/sme/all-list,https://dev-api.taxbuddy.com/report/bo/sme/all-list,2,403,0.54,,Response 403 on attempt 2,
+GET,/bo/sme/all-list,https://dev-api.taxbuddy.com/report/bo/sme/all-list,3,403,0.55,,Response 403 on attempt 3,
+GET,/bo/sme-details,https://dev-api.taxbuddy.com/report/bo/sme-details,1,403,0.56,,Response 403 on attempt 1,
+GET,/bo/sme-details,https://dev-api.taxbuddy.com/report/bo/sme-details,2,403,0.54,,Response 403 on attempt 2,
+GET,/bo/sme-details,https://dev-api.taxbuddy.com/report/bo/sme-details,3,403,0.53,,Response 403 on attempt 3,
+GET,/bo/sme-details-new/{userId},https://dev-api.taxbuddy.com/report/bo/sme-details-new/1,1,403,0.57,,Response 403 on attempt 1,
+GET,/bo/sme-details-new/{userId},https://dev-api.taxbuddy.com/report/bo/sme-details-new/1,2,403,0.55,,Response 403 on attempt 2,
+GET,/bo/sme-details-new/{userId},https://dev-api.taxbuddy.com/report/bo/sme-details-new/1,3,403,0.55,,Response 403 on attempt 3,
+GET,/bo/script/filing-details-with-compId,https://dev-api.taxbuddy.com/report/bo/script/filing-details-with-compId,1,403,0.56,,Response 403 on attempt 1,
+GET,/bo/script/filing-details-with-compId,https://dev-api.taxbuddy.com/report/bo/script/filing-details-with-compId,2,403,0.57,,Response 403 on attempt 2,
+GET,/bo/script/filing-details-with-compId,https://dev-api.taxbuddy.com/report/bo/script/filing-details-with-compId,3,403,0.55,,Response 403 on attempt 3,
+GET,/bo/script-add-status,https://dev-api.taxbuddy.com/report/bo/script-add-status,1,403,0.53,,Response 403 on attempt 1,
+GET,/bo/script-add-status,https://dev-api.taxbuddy.com/report/bo/script-add-status,2,403,0.56,,Response 403 on attempt 2,
+GET,/bo/script-add-status,https://dev-api.taxbuddy.com/report/bo/script-add-status,3,403,0.54,,Response 403 on attempt 3,
+GET,/bo/schedule-call-details,https://dev-api.taxbuddy.com/report/bo/schedule-call-details,1,403,0.55,,Response 403 on attempt 1,
+GET,/bo/schedule-call-details,https://dev-api.taxbuddy.com/report/bo/schedule-call-details,2,403,0.53,,Response 403 on attempt 2,
+GET,/bo/schedule-call-details,https://dev-api.taxbuddy.com/report/bo/schedule-call-details,3,403,0.53,,Response 403 on attempt 3,
+GET,/bo/report-prefill-uploaded-summary-not-sent,https://dev-api.taxbuddy.com/report/bo/report-prefill-uploaded-summary-not-sent,1,403,0.55,,Response 403 on attempt 1,
+GET,/bo/report-prefill-uploaded-summary-not-sent,https://dev-api.taxbuddy.com/report/bo/report-prefill-uploaded-summary-not-sent,2,403,0.55,,Response 403 on attempt 2,
+GET,/bo/report-prefill-uploaded-summary-not-sent,https://dev-api.taxbuddy.com/report/bo/report-prefill-uploaded-summary-not-sent,3,403,0.56,,Response 403 on attempt 3,
+GET,/bo/refund/requests,https://dev-api.taxbuddy.com/report/bo/refund/requests,1,403,0.58,,Response 403 on attempt 1,
+GET,/bo/refund/requests,https://dev-api.taxbuddy.com/report/bo/refund/requests,2,403,0.55,,Response 403 on attempt 2,
+GET,/bo/refund/requests,https://dev-api.taxbuddy.com/report/bo/refund/requests,3,403,0.55,,Response 403 on attempt 3,
+GET,/bo/query,https://dev-api.taxbuddy.com/report/bo/query,1,403,0.55,,Response 403 on attempt 1,
+GET,/bo/query,https://dev-api.taxbuddy.com/report/bo/query,2,403,0.55,,Response 403 on attempt 2,
+GET,/bo/query,https://dev-api.taxbuddy.com/report/bo/query,3,403,0.55,,Response 403 on attempt 3,
+GET,/bo/proforma-invoice-send-report,https://dev-api.taxbuddy.com/report/bo/proforma-invoice-send-report,1,403,0.56,,Response 403 on attempt 1,
+GET,/bo/proforma-invoice-send-report,https://dev-api.taxbuddy.com/report/bo/proforma-invoice-send-report,2,403,0.54,,Response 403 on attempt 2,
+GET,/bo/proforma-invoice-send-report,https://dev-api.taxbuddy.com/report/bo/proforma-invoice-send-report,3,403,0.55,,Response 403 on attempt 3,
+GET,/bo/payout-adjustment-report,https://dev-api.taxbuddy.com/report/bo/payout-adjustment-report,1,403,0.59,,Response 403 on attempt 1,
+GET,/bo/payout-adjustment-report,https://dev-api.taxbuddy.com/report/bo/payout-adjustment-report,2,403,0.55,,Response 403 on attempt 2,
+GET,/bo/payout-adjustment-report,https://dev-api.taxbuddy.com/report/bo/payout-adjustment-report,3,403,0.53,,Response 403 on attempt 3,
+GET,/bo/payment-received-status-report,https://dev-api.taxbuddy.com/report/bo/payment-received-status-report,1,403,0.55,,Response 403 on attempt 1,
+GET,/bo/payment-received-status-report,https://dev-api.taxbuddy.com/report/bo/payment-received-status-report,2,403,0.54,,Response 403 on attempt 2,
+GET,/bo/payment-received-status-report,https://dev-api.taxbuddy.com/report/bo/payment-received-status-report,3,403,0.53,,Response 403 on attempt 3,
+GET,/bo/payment-done-but-itr-not-filed,https://dev-api.taxbuddy.com/report/bo/payment-done-but-itr-not-filed,1,403,0.54,,Response 403 on attempt 1,
+GET,/bo/payment-done-but-itr-not-filed,https://dev-api.taxbuddy.com/report/bo/payment-done-but-itr-not-filed,2,403,0.52,,Response 403 on attempt 2,
+GET,/bo/payment-done-but-itr-not-filed,https://dev-api.taxbuddy.com/report/bo/payment-done-but-itr-not-filed,3,403,0.54,,Response 403 on attempt 3,
+GET,/bo/pan-details,https://dev-api.taxbuddy.com/report/bo/pan-details,1,403,0.56,,Response 403 on attempt 1,
+GET,/bo/pan-details,https://dev-api.taxbuddy.com/report/bo/pan-details,2,403,0.54,,Response 403 on attempt 2,
+GET,/bo/pan-details,https://dev-api.taxbuddy.com/report/bo/pan-details,3,403,0.57,,Response 403 on attempt 3,
+GET,/bo/last-year-filing-data-for-mandar,https://dev-api.taxbuddy.com/report/bo/last-year-filing-data-for-mandar,1,403,0.56,,Response 403 on attempt 1,
+GET,/bo/last-year-filing-data-for-mandar,https://dev-api.taxbuddy.com/report/bo/last-year-filing-data-for-mandar,2,403,0.56,,Response 403 on attempt 2,
+GET,/bo/last-year-filing-data-for-mandar,https://dev-api.taxbuddy.com/report/bo/last-year-filing-data-for-mandar,3,403,0.59,,Response 403 on attempt 3,
+GET,/bo/itrU-details,https://dev-api.taxbuddy.com/report/bo/itrU-details,1,403,0.59,,Response 403 on attempt 1,
+GET,/bo/itrU-details,https://dev-api.taxbuddy.com/report/bo/itrU-details,2,403,0.59,,Response 403 on attempt 2,
+GET,/bo/itrU-details,https://dev-api.taxbuddy.com/report/bo/itrU-details,3,403,0.55,,Response 403 on attempt 3,
+GET,/bo/itr-report,https://dev-api.taxbuddy.com/report/bo/itr-report,1,200,2.12,,Success on attempt 1,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : [ ],
+  ""httpErrorCode"" : 200
+}"
+GET,/bo/itr-report,https://dev-api.taxbuddy.com/report/bo/itr-report,2,200,2.09,,Success on attempt 2,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : [ ],
+  ""httpErrorCode"" : 200
+}"
+GET,/bo/itr-report,https://dev-api.taxbuddy.com/report/bo/itr-report,3,200,2.25,,Success on attempt 3,"{
+  ""success"" : true,
+  ""error"" : null,
+  ""message"" : null,
+  ""data"" : [ ],
+  ""httpErrorCode"" : 200
+}"
+GET,/bo/itr-list,https://dev-api.taxbuddy.com/report/bo/itr-list,1,403,0.58,,Response 403 on attempt 1,
+GET,/bo/itr-list,https://dev-api.taxbuddy.com/report/bo/itr-list,2,403,0.59,,Response 403 on attempt 2,
+GET,/bo/itr-list,https://dev-api.taxbuddy.com/report/bo/itr-list,3,403,0.54,,Response 403 on attempt 3,
+GET,/bo/itr-filing-credit,https://dev-api.taxbuddy.com/report/bo/itr-filing-credit,1,403,0.53,,Response 403 on attempt 1,
+GET,/bo/itr-filing-credit,https://dev-api.taxbuddy.com/report/bo/itr-filing-credit,2,403,0.56,,Response 403 on attempt 2,
+GET,/bo/itr-filing-credit,https://dev-api.taxbuddy.com/report/bo/itr-filing-credit,3,403,0.52,,Response 403 on attempt 3,
+GET,/bo/itr-filed-users-details-report,https://dev-api.taxbuddy.com/report/bo/itr-filed-users-details-report,1,403,0.55,,Response 403 on attempt 1,
+GET,/bo/itr-filed-users-details-report,https://dev-api.taxbuddy.com/report/bo/itr-filed-users-details-report,2,403,0.55,,Response 403 on attempt 2,
+GET,/bo/itr-filed-users-details-report,https://dev-api.taxbuddy.com/report/bo/itr-filed-users-details-report,3,403,0.55,,Response 403 on attempt 3,
+GET,/bo/itr-filed-automation,https://dev-api.taxbuddy.com/report/bo/itr-filed-automation,1,403,0.53,,Response 403 on attempt 1,
+GET,/bo/itr-filed-automation,https://dev-api.taxbuddy.com/report/bo/itr-filed-automation,2,403,0.55,,Response 403 on attempt 2,
+GET,/bo/itr-filed-automation,https://dev-api.taxbuddy.com/report/bo/itr-filed-automation,3,403,0.53,,Response 403 on attempt 3,
+GET,/bo/itr-filed-and-discount-details,https://dev-api.taxbuddy.com/report/bo/itr-filed-and-discount-details,1,403,0.54,,Response 403 on attempt 1,
+GET,/bo/itr-filed-and-discount-details,https://dev-api.taxbuddy.com/report/bo/itr-filed-and-discount-details,2,403,0.53,,Response 403 on attempt 2,
+GET,/bo/itr-filed-and-discount-details,https://dev-api.taxbuddy.com/report/bo/itr-filed-and-discount-details,3,403,0.56,,Response 403 on attempt 3,
+GET,/bo/itr-efiling-date,https://dev-api.taxbuddy.com/report/bo/itr-efiling-date,1,403,0.57,,Response 403 on attempt 1,
+GET,/bo/itr-efiling-date,https://dev-api.taxbuddy.com/report/bo/itr-efiling-date,2,403,0.85,,Response 403 on attempt 2,
+GET,/bo/itr-efiling-date,https://dev-api.taxbuddy.com/report/bo/itr-efiling-date,3,403,0.56,,Response 403 on attempt 3,
+GET,/bo/itr-customer-report,https://dev-api.taxbuddy.com/report/bo/itr-customer-report,1,403,0.54,,Response 403 on attempt 1,
+GET,/bo/itr-customer-report,https://dev-api.taxbuddy.com/report/bo/itr-customer-report,2,403,0.54,,Response 403 on attempt 2,
+GET,/bo/itr-customer-report,https://dev-api.taxbuddy.com/report/bo/itr-customer-report,3,403,0.55,,Response 403 on attempt 3,
+GET,/bo/invoice/report,https://dev-api.taxbuddy.com/report/bo/invoice/report,1,403,0.55,,Response 403 on attempt 1,
+GET,/bo/invoice/report,https://dev-api.taxbuddy.com/report/bo/invoice/report,2,403,0.53,,Response 403 on attempt 2,
+GET,/bo/invoice/report,https://dev-api.taxbuddy.com/report/bo/invoice/report,3,403,0.55,,Response 403 on attempt 3,
+GET,/bo/icici-bank-details,https://dev-api.taxbuddy.com/report/bo/icici-bank-details,1,403,0.51,,Response 403 on attempt 1,
+GET,/bo/icici-bank-details,https://dev-api.taxbuddy.com/report/bo/icici-bank-details,2,403,0.55,,Response 403 on attempt 2,
+GET,/bo/icici-bank-details,https://dev-api.taxbuddy.com/report/bo/icici-bank-details,3,403,0.55,,Response 403 on attempt 3,
+GET,/bo/future-year-subscription-exists,https://dev-api.taxbuddy.com/report/bo/future-year-subscription-exists,1,403,0.56,,Response 403 on attempt 1,
+GET,/bo/future-year-subscription-exists,https://dev-api.taxbuddy.com/report/bo/future-year-subscription-exists,2,403,0.56,,Response 403 on attempt 2,
+GET,/bo/future-year-subscription-exists,https://dev-api.taxbuddy.com/report/bo/future-year-subscription-exists,3,403,0.54,,Response 403 on attempt 3,
+GET,/bo/filing-done-but-payment-not-received,https://dev-api.taxbuddy.com/report/bo/filing-done-but-payment-not-received,1,403,0.54,,Response 403 on attempt 1,
+GET,/bo/filing-done-but-payment-not-received,https://dev-api.taxbuddy.com/report/bo/filing-done-but-payment-not-received,2,403,0.56,,Response 403 on attempt 2,
+GET,/bo/filing-done-but-payment-not-received,https://dev-api.taxbuddy.com/report/bo/filing-done-but-payment-not-received,3,403,0.59,,Response 403 on attempt 3,
+GET,/bo/filing-details,https://dev-api.taxbuddy.com/report/bo/filing-details,1,403,0.57,,Response 403 on attempt 1,
+GET,/bo/filing-details,https://dev-api.taxbuddy.com/report/bo/filing-details,2,403,0.54,,Response 403 on attempt 2,
+GET,/bo/filing-details,https://dev-api.taxbuddy.com/report/bo/filing-details,3,403,0.56,,Response 403 on attempt 3,
+GET,/bo/filed-itr-details,https://dev-api.taxbuddy.com/report/bo/filed-itr-details,1,403,0.54,,Response 403 on attempt 1,
+GET,/bo/filed-itr-details,https://dev-api.taxbuddy.com/report/bo/filed-itr-details,2,403,0.52,,Response 403 on attempt 2,
+GET,/bo/filed-itr-details,https://dev-api.taxbuddy.com/report/bo/filed-itr-details,3,403,0.55,,Response 403 on attempt 3,
+GET,/bo/duplicate-pan-itr,https://dev-api.taxbuddy.com/report/bo/duplicate-pan-itr,1,403,0.52,,Response 403 on attempt 1,
+GET,/bo/duplicate-pan-itr,https://dev-api.taxbuddy.com/report/bo/duplicate-pan-itr,2,403,0.55,,Response 403 on attempt 2,
+GET,/bo/duplicate-pan-itr,https://dev-api.taxbuddy.com/report/bo/duplicate-pan-itr,3,403,0.53,,Response 403 on attempt 3,
+GET,/bo/documents-uploaded-filing-not-done,https://dev-api.taxbuddy.com/report/bo/documents-uploaded-filing-not-done,1,403,0.55,,Response 403 on attempt 1,
+GET,/bo/documents-uploaded-filing-not-done,https://dev-api.taxbuddy.com/report/bo/documents-uploaded-filing-not-done,2,403,0.55,,Response 403 on attempt 2,
+GET,/bo/documents-uploaded-filing-not-done,https://dev-api.taxbuddy.com/report/bo/documents-uploaded-filing-not-done,3,403,0.57,,Response 403 on attempt 3,
+GET,/bo/data-migration-elastic-search,https://dev-api.taxbuddy.com/report/bo/data-migration-elastic-search,1,403,0.56,,Response 403 on attempt 1,
+GET,/bo/data-migration-elastic-search,https://dev-api.taxbuddy.com/report/bo/data-migration-elastic-search,2,403,0.56,,Response 403 on attempt 2,
+GET,/bo/data-migration-elastic-search,https://dev-api.taxbuddy.com/report/bo/data-migration-elastic-search,3,403,0.54,,Response 403 on attempt 3,
+GET,/bo/dashboard/waiting-for-confirmation,https://dev-api.taxbuddy.com/report/bo/dashboard/waiting-for-confirmation,1,403,0.58,,Response 403 on attempt 1,
+GET,/bo/dashboard/waiting-for-confirmation,https://dev-api.taxbuddy.com/report/bo/dashboard/waiting-for-confirmation,2,403,0.55,,Response 403 on attempt 2,
+GET,/bo/dashboard/waiting-for-confirmation,https://dev-api.taxbuddy.com/report/bo/dashboard/waiting-for-confirmation,3,403,0.56,,Response 403 on attempt 3,
+GET,/bo/dashboard/status-wise-report,https://dev-api.taxbuddy.com/report/bo/dashboard/status-wise-report,1,403,0.56,,Response 403 on attempt 1,
+GET,/bo/dashboard/status-wise-report,https://dev-api.taxbuddy.com/report/bo/dashboard/status-wise-report,2,403,0.55,,Response 403 on attempt 2,
+GET,/bo/dashboard/status-wise-report,https://dev-api.taxbuddy.com/report/bo/dashboard/status-wise-report,3,403,0.52,,Response 403 on attempt 3,
+GET,/bo/dashboard/sme-report,https://dev-api.taxbuddy.com/report/bo/dashboard/sme-report,1,403,0.51,,Response 403 on attempt 1,
+GET,/bo/dashboard/sme-report,https://dev-api.taxbuddy.com/report/bo/dashboard/sme-report,2,403,0.55,,Response 403 on attempt 2,
+GET,/bo/dashboard/sme-report,https://dev-api.taxbuddy.com/report/bo/dashboard/sme-report,3,403,0.55,,Response 403 on attempt 3,
+GET,/bo/dashboard/schedule-call,https://dev-api.taxbuddy.com/report/bo/dashboard/schedule-call,1,403,0.55,,Response 403 on attempt 1,
+GET,/bo/dashboard/schedule-call,https://dev-api.taxbuddy.com/report/bo/dashboard/schedule-call,2,403,0.53,,Response 403 on attempt 2,
+GET,/bo/dashboard/schedule-call,https://dev-api.taxbuddy.com/report/bo/dashboard/schedule-call,3,403,0.55,,Response 403 on attempt 3,
+GET,/bo/dashboard/payment-received-but-filing-not-started,https://dev-api.taxbuddy.com/report/bo/dashboard/payment-received-but-filing-not-started,1,403,0.53,,Response 403 on attempt 1,
+GET,/bo/dashboard/payment-received-but-filing-not-started,https://dev-api.taxbuddy.com/report/bo/dashboard/payment-received-but-filing-not-started,2,403,0.54,,Response 403 on attempt 2,
+GET,/bo/dashboard/payment-received-but-filing-not-started,https://dev-api.taxbuddy.com/report/bo/dashboard/payment-received-but-filing-not-started,3,403,0.56,,Response 403 on attempt 3,
+GET,/bo/dashboard/partner-commission-cumulative,https://dev-api.taxbuddy.com/report/bo/dashboard/partner-commission-cumulative,1,403,0.55,,Response 403 on attempt 1,
+GET,/bo/dashboard/partner-commission-cumulative,https://dev-api.taxbuddy.com/report/bo/dashboard/partner-commission-cumulative,2,403,0.55,,Response 403 on attempt 2,
+GET,/bo/dashboard/partner-commission-cumulative,https://dev-api.taxbuddy.com/report/bo/dashboard/partner-commission-cumulative,3,403,0.55,,Response 403 on attempt 3,
+GET,/bo/dashboard/itr-filed-everification-pending,https://dev-api.taxbuddy.com/report/bo/dashboard/itr-filed-everification-pending,1,403,0.56,,Response 403 on attempt 1,
+GET,/bo/dashboard/itr-filed-everification-pending,https://dev-api.taxbuddy.com/report/bo/dashboard/itr-filed-everification-pending,2,403,0.56,,Response 403 on attempt 2,
+GET,/bo/dashboard/itr-filed-everification-pending,https://dev-api.taxbuddy.com/report/bo/dashboard/itr-filed-everification-pending,3,403,0.54,,Response 403 on attempt 3,
+GET,/bo/dashboard/itr-filed-but-payment-pending,https://dev-api.taxbuddy.com/report/bo/dashboard/itr-filed-but-payment-pending,1,403,0.52,,Response 403 on attempt 1,
+GET,/bo/dashboard/itr-filed-but-payment-pending,https://dev-api.taxbuddy.com/report/bo/dashboard/itr-filed-but-payment-pending,2,403,0.52,,Response 403 on attempt 2,
+GET,/bo/dashboard/itr-filed-but-payment-pending,https://dev-api.taxbuddy.com/report/bo/dashboard/itr-filed-but-payment-pending,3,403,0.55,,Response 403 on attempt 3,
+GET,/bo/dashboard/invoice-report,https://dev-api.taxbuddy.com/report/bo/dashboard/invoice-report,1,403,0.54,,Response 403 on attempt 1,
+GET,/bo/dashboard/invoice-report,https://dev-api.taxbuddy.com/report/bo/dashboard/invoice-report,2,403,0.55,,Response 403 on attempt 2,
+GET,/bo/dashboard/invoice-report,https://dev-api.taxbuddy.com/report/bo/dashboard/invoice-report,3,403,0.55,,Response 403 on attempt 3,
+GET,/bo/dashboard/doc-uploaded-filing-not-started,https://dev-api.taxbuddy.com/report/bo/dashboard/doc-uploaded-filing-not-started,1,403,0.55,,Response 403 on attempt 1,
+GET,/bo/dashboard/doc-uploaded-filing-not-started,https://dev-api.taxbuddy.com/report/bo/dashboard/doc-uploaded-filing-not-started,2,403,0.56,,Response 403 on attempt 2,
+GET,/bo/dashboard/doc-uploaded-filing-not-started,https://dev-api.taxbuddy.com/report/bo/dashboard/doc-uploaded-filing-not-started,3,403,0.54,,Response 403 on attempt 3,
+GET,/bo/dashboard/diy-assisted-statuswise-report,https://dev-api.taxbuddy.com/report/bo/dashboard/diy-assisted-statuswise-report,1,403,0.58,,Response 403 on attempt 1,
+GET,/bo/dashboard/diy-assisted-statuswise-report,https://dev-api.taxbuddy.com/report/bo/dashboard/diy-assisted-statuswise-report,2,403,0.56,,Response 403 on attempt 2,
+GET,/bo/dashboard/diy-assisted-statuswise-report,https://dev-api.taxbuddy.com/report/bo/dashboard/diy-assisted-statuswise-report,3,403,0.54,,Response 403 on attempt 3,
+GET,/bo/dashboard/calling-summary,https://dev-api.taxbuddy.com/report/bo/dashboard/calling-summary,1,403,0.57,,Response 403 on attempt 1,
+GET,/bo/dashboard/calling-summary,https://dev-api.taxbuddy.com/report/bo/dashboard/calling-summary,2,403,0.56,,Response 403 on attempt 2,
+GET,/bo/dashboard/calling-summary,https://dev-api.taxbuddy.com/report/bo/dashboard/calling-summary,3,403,0.52,,Response 403 on attempt 3,
+GET,/bo/dashboard/attendance-performance-report,https://dev-api.taxbuddy.com/report/bo/dashboard/attendance-performance-report,1,403,0.56,,Response 403 on attempt 1,
+GET,/bo/dashboard/attendance-performance-report,https://dev-api.taxbuddy.com/report/bo/dashboard/attendance-performance-report,2,403,0.55,,Response 403 on attempt 2,
+GET,/bo/dashboard/attendance-performance-report,https://dev-api.taxbuddy.com/report/bo/dashboard/attendance-performance-report,3,403,0.54,,Response 403 on attempt 3,
+GET,/bo/customer-signup-report,https://dev-api.taxbuddy.com/report/bo/customer-signup-report,1,403,0.54,,Response 403 on attempt 1,
+GET,/bo/customer-signup-report,https://dev-api.taxbuddy.com/report/bo/customer-signup-report,2,403,0.57,,Response 403 on attempt 2,
+GET,/bo/customer-signup-report,https://dev-api.taxbuddy.com/report/bo/customer-signup-report,3,403,0.54,,Response 403 on attempt 3,
+GET,/bo/credit-note,https://dev-api.taxbuddy.com/report/bo/credit-note,1,403,0.55,,Response 403 on attempt 1,
+GET,/bo/credit-note,https://dev-api.taxbuddy.com/report/bo/credit-note,2,403,0.56,,Response 403 on attempt 2,
+GET,/bo/credit-note,https://dev-api.taxbuddy.com/report/bo/credit-note,3,403,0.56,,Response 403 on attempt 3,
+GET,/bo/claim-exemption-in-salary,https://dev-api.taxbuddy.com/report/bo/claim-exemption-in-salary,1,403,0.56,,Response 403 on attempt 1,
+GET,/bo/claim-exemption-in-salary,https://dev-api.taxbuddy.com/report/bo/claim-exemption-in-salary,2,403,0.55,,Response 403 on attempt 2,
+GET,/bo/claim-exemption-in-salary,https://dev-api.taxbuddy.com/report/bo/claim-exemption-in-salary,3,403,0.57,,Response 403 on attempt 3,
+GET,/bo/calling-report/schedule-call-report,https://dev-api.taxbuddy.com/report/bo/calling-report/schedule-call-report,1,403,0.6,,Response 403 on attempt 1,
+GET,/bo/calling-report/schedule-call-report,https://dev-api.taxbuddy.com/report/bo/calling-report/schedule-call-report,2,403,0.67,,Response 403 on attempt 2,
+GET,/bo/calling-report/schedule-call-report,https://dev-api.taxbuddy.com/report/bo/calling-report/schedule-call-report,3,403,0.58,,Response 403 on attempt 3,
+GET,/bo/calling-report/revenue-report,https://dev-api.taxbuddy.com/report/bo/calling-report/revenue-report,1,403,0.56,,Response 403 on attempt 1,
+GET,/bo/calling-report/revenue-report,https://dev-api.taxbuddy.com/report/bo/calling-report/revenue-report,2,403,0.56,,Response 403 on attempt 2,
+GET,/bo/calling-report/revenue-report,https://dev-api.taxbuddy.com/report/bo/calling-report/revenue-report,3,403,0.56,,Response 403 on attempt 3,
+GET,/bo/calling-report/missed-inbound-calls,https://dev-api.taxbuddy.com/report/bo/calling-report/missed-inbound-calls,1,403,0.56,,Response 403 on attempt 1,
+GET,/bo/calling-report/missed-inbound-calls,https://dev-api.taxbuddy.com/report/bo/calling-report/missed-inbound-calls,2,403,0.54,,Response 403 on attempt 2,
+GET,/bo/calling-report/missed-inbound-calls,https://dev-api.taxbuddy.com/report/bo/calling-report/missed-inbound-calls,3,403,0.56,,Response 403 on attempt 3,
+GET,/bo/calling-report/missed-chat-report,https://dev-api.taxbuddy.com/report/bo/calling-report/missed-chat-report,1,403,0.57,,Response 403 on attempt 1,
+GET,/bo/calling-report/missed-chat-report,https://dev-api.taxbuddy.com/report/bo/calling-report/missed-chat-report,2,403,0.55,,Response 403 on attempt 2,
+GET,/bo/calling-report/missed-chat-report,https://dev-api.taxbuddy.com/report/bo/calling-report/missed-chat-report,3,403,0.55,,Response 403 on attempt 3,
+GET,/bo/calling-report/missed-chat-list,https://dev-api.taxbuddy.com/report/bo/calling-report/missed-chat-list,1,403,0.55,,Response 403 on attempt 1,
+GET,/bo/calling-report/missed-chat-list,https://dev-api.taxbuddy.com/report/bo/calling-report/missed-chat-list,2,403,0.54,,Response 403 on attempt 2,
+GET,/bo/calling-report/missed-chat-list,https://dev-api.taxbuddy.com/report/bo/calling-report/missed-chat-list,3,403,0.51,,Response 403 on attempt 3,
+GET,/bo/calling-report/itr-filing-report,https://dev-api.taxbuddy.com/report/bo/calling-report/itr-filing-report,1,403,0.55,,Response 403 on attempt 1,
+GET,/bo/calling-report/itr-filing-report,https://dev-api.taxbuddy.com/report/bo/calling-report/itr-filing-report,2,403,0.54,,Response 403 on attempt 2,
+GET,/bo/calling-report/itr-filing-report,https://dev-api.taxbuddy.com/report/bo/calling-report/itr-filing-report,3,403,0.51,,Response 403 on attempt 3,
+GET,/bo/calling-report/daily-sign-up-report,https://dev-api.taxbuddy.com/report/bo/calling-report/daily-sign-up-report,1,403,0.53,,Response 403 on attempt 1,
+GET,/bo/calling-report/daily-sign-up-report,https://dev-api.taxbuddy.com/report/bo/calling-report/daily-sign-up-report,2,403,0.52,,Response 403 on attempt 2,
+GET,/bo/calling-report/daily-sign-up-report,https://dev-api.taxbuddy.com/report/bo/calling-report/daily-sign-up-report,3,403,0.54,,Response 403 on attempt 3,
+GET,/bo/calling-report/daily-calling-report,https://dev-api.taxbuddy.com/report/bo/calling-report/daily-calling-report,1,403,0.55,,Response 403 on attempt 1,
+GET,/bo/calling-report/daily-calling-report,https://dev-api.taxbuddy.com/report/bo/calling-report/daily-calling-report,2,403,0.56,,Response 403 on attempt 2,
+GET,/bo/calling-report/daily-calling-report,https://dev-api.taxbuddy.com/report/bo/calling-report/daily-calling-report,3,403,0.55,,Response 403 on attempt 3,
+GET,/bo/add-client-done-no-filing,https://dev-api.taxbuddy.com/report/bo/add-client-done-no-filing,1,403,0.56,,Response 403 on attempt 1,
+GET,/bo/add-client-done-no-filing,https://dev-api.taxbuddy.com/report/bo/add-client-done-no-filing,2,403,0.55,,Response 403 on attempt 2,
+GET,/bo/add-client-done-no-filing,https://dev-api.taxbuddy.com/report/bo/add-client-done-no-filing,3,403,0.54,,Response 403 on attempt 3,

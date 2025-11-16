@@ -1,0 +1,34 @@
+{
+  "services": {
+    "1": {
+      "name": "Report",
+      "openapi_url": "https://dev-api.taxbuddy.com/report/v3/api-docs",
+      "description": "TaxBuddy Report Service"
+    },
+    "2": {
+      "name": "ITR",
+      "openapi_url": "https://dev-api.taxbuddy.com/itr/v3/api-docs",
+      "description": "TaxBuddy ITR Service"
+    },
+    "3": {
+      "name": "User",
+      "openapi_url": "https://dev-api.taxbuddy.com/user/v3/api-docs",
+      "description": "TaxBuddy User Service"
+    },
+    "4": {
+      "name": "Gateway",
+      "openapi_url": "https://dev-api.taxbuddy.com/gateway/v3/api-docs",
+      "description": "TaxBuddy Gateway Service"
+    },
+    "5": {
+      "name": "TaxbuddyPDF",
+      "openapi_url": "https://dev-api.taxbuddy.com/pdf/v3/api-docs",
+      "description": "TaxBuddy PDF Service"
+    }
+  },
+  "bearer_token": "Bearer eyJraWQiOiJZa2tEMzVPVXpDazNhZU45WGJIczM1cndITGoxamplVzRoSkttSG1iTlBrPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIyYTYzYzA1My04ZDQzLTQyNGItOTI5ZS0wNjllYjAxNzhlOGYiLCJldmVudF9pZCI6ImY5MDdjMDJmLTBlYmYtNGFlNy1iNmM5LWE5Y2M4MzQyYmZmYSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE3NjMyMDc0OTMsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5hcC1zb3V0aC0xLmFtYXpvbmF3cy5jb21cL2FwLXNvdXRoLTFfVjVzTzNkY1VWIiwiZXhwIjoxNzYzMjg3MzAwLCJpYXQiOjE3NjMyODM3MDAsImp0aSI6ImJmNjAxNmQ1LWQyZjUtNDc2NS1iNzhjLTM2YmFkZWVhNDcxNiIsImNsaWVudF9pZCI6IjQ5Y2EwYmpwNHJvcmdkcGl2YjFrOWxidjY1IiwidXNlcm5hbWUiOiIyYTYzYzA1My04ZDQzLTQyNGItOTI5ZS0wNjllYjAxNzhlOGYifQ.ZJWXlkDX5mISxPdlf4kLnure8aiVTIoUKtBkqtFOLROmeDFlFX6qp76mnoD8s7DjbTeLqAdJmGfQ7sFGaGaT-zpNsDLhpup5avLT0GMOGajuIKWyd72bk9clsdT0-MRxsKZ0zfVEKMbga3rZbU90X1ANh4aGYuclLE7CsgBe3JGsw9eNdI9Wuimq3oexfqt2G0wiY12IJgcJ-0TaNVP2T-y6xZKXHym-_HU1nl-tGp37LpZbm60StN3QexaIqi56q9EhzURh8D4aZ23l3e8lDuipx8bFC5Q_y1hRRlMfuTMUzcF5oGByq3q5RU0e0NpKtepvawT6MdgSpyjWyn8zSA",
+  "timeout": 30,
+  "max_response_length": 300,
+  "report_directory": "results",
+  "rate_limit_count": 3
+}
